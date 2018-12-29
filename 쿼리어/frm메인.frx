@@ -1,0 +1,20 @@
+Ъ┌ SELECT A.APLC_BRCD                                    -- ╫ец╩╨на║дз╣Е           
+     , A.APLC_YMD                                     -- ╫ец╩ЁБ©Ыюо             
+     , TRIM (A.LOAN_ACNO) AS LOAN_ACNO                -- ╢КцБ╟Хаб╧Ьхё           
+     , A.INPM_GRCE_DSCD                               -- гр╨н╠щю╞©╧╠╦╨пдз╣Е     
+     , A.INPM_GRAL_STCD                               -- гр╨н╠щю╞©╧╫ец╩╩Себдз╣Е 
+     , A.MEMO_CNTN                                    -- ╦ч╦ПЁ╩©К               
+     , A.ATHZ_YMD                                     -- ╫бюнЁБ©Ыюо             
+     , A.HNDL_MBCD                                    -- цК╠ч╦Па║дз╣Е           
+     , A.FNFU_RTRC_RSCN                               -- юГа╓╠Б╠щ╧щ╥а╩Гю╞Ё╩©К   
+     , A.APLC_SRNO                                    -- ╫ец╩юо╥ц╧Ьхё           
+     , FN_USR_NM (A.APLC_EMNO) AS APLC_EMNM           -- ╫ец╩аВ©Ь╧Ьхё           
+     , FN_CD_NM (A.INPM_GRAL_STCD) AS INPM_GRAL_STNM  -- гр╨н╠щю╞©╧╫ец╩╩Себдз╣Е 
+     , FN_CD_NM (A.INPM_GRCE_DSCD) AS INPM_GRCE_DSNM  -- гр╨н╠щю╞©╧╠╦╨пдз╣Е     
+     , FN_BRN_NM (A.APLC_BRCD) AS APLC_BRNM           -- ╫ец╩╨на║дз╣Е           
+     , FN_BRN_NM (A.HNDL_MBCD) AS HNDL_MBNM           -- цК╠ч╦Па║дз╣Е           
+  FROM TB_PCC_BGPGA_M_O A                             -- гр╨н╠щю╞©╧╫ец╩         
+ WHERE 1 = 1                                          --                        
+   AND A.CNCL_YN = 'N'                                -- цК╪р©╘╨н               
+   AND A.APLC_BRCD = '0707'                                                               -- ╫ец╩╨на║дз╣Е           
+   ORDER BY A.APLC_YMD                                  -- ╫ец╩ЁБ©Ыюо

@@ -1,0 +1,767 @@
+ACCD|계정과목코드
+ACIT_DSCD|계정구분코드
+ACIT_MNGM_BRCD|계정관리부점코드
+ADRS|주소
+ADRS|주소
+AGLA_NO|협약대출계좌번호
+AGLA_STTS_DSCD|협약대출계좌상태구분코드
+AGLE_DSCD|협약대출예외구분코드
+AGLI_APLY_DSCD|협약대출이자적용구분코드
+AGLI_APSR_CNTN|협약대출이자적용시작값
+AGLI_FNAP_CNTN|협약대출이자적용종료값
+AGLM_PER_IRSU_YN|협약대출기간별이율설정여부
+AGLN_AFTR_BLNC|협약대출거래후잔액
+AGLN_AGRN_ISCD|협약대출협약기관코드
+AGLN_ANFT_DSCD|협약대출계좌번호특성구분코드
+AGLN_BRNO|협약대출사업자등록번호
+AGLN_BRR_DSCD|협약대출차주구분코드
+AGLN_BSYMD|협약대출기준년월일
+AGLN_CCCD|협약대출고객분류코드
+AGLN_CLDS_RSCD|협약대출계산중단사유코드
+AGLN_CSBS_YN|협약대출폐업여부
+AGLN_DSHR_YN|협약대출부도여부
+AGLN_DVSN_NM|협약대출부서명
+AGLN_ENNM|협약대출업체명
+AGLN_ERL_PMYMD|협약대출조기지급년월일
+AGLN_ERPD_STUP_YN|협약대출조기지급일설정여부
+AGLN_EXYMD|협약대출만기년월일
+AGLN_ICNO|협약대출내부계약번호
+AGLN_INRT|협약대출이율
+AGLN_INTT_NM|협약대출기관명
+AGLN_ISCD|협약대출기관코드
+AGLN_JOYMD|협약대출작업년월일
+AGLN_LBCT_DSCD|협약대출여신계약거래구분코드
+AGLN_LDGR_MDFC_YMD|협약대출원장변경년월일
+AGLN_LDGR_STCD|협약대출원장상태코드
+AGLN_LOAMT|협약대출대출금액
+AGLN_LOAN_YMD|협약대출대출년월일
+AGLN_LOBL|협약대출대출잔액
+AGLN_LPIA_IPYMD|협약대출최종원리금수입년월일
+AGLN_LSIN_IPYMD|협약대출최종이자수입년월일
+AGLN_LSIN_RVN_APYN|협약대출최종이자수입적용여부
+AGLN_LSMD_YMD|협약대출최종변경년월일
+AGLN_MATT_DSCD|협약대출경영평가대상구분코드
+AGLN_MBCD|협약대출모점코드
+AGLN_MDFC_DTL_HSTR|협약대출변경상세내역
+AGLN_MNGM_MBCD|협약대출관리모점코드
+AGLN_MRTG_CD|협약대출담보코드
+AGLN_NXGN_BS_ATCD|협약대출차세대BS계정코드
+AGLN_OVRD_DSCD|협약대출연체구분코드
+AGLN_PLAS_DSCD|협약대출시책활동상태구분코드
+AGLN_POLC_NM|협약대출시책명
+AGLN_RDYL_DSCD|협약대출적황색구분코드
+AGLN_RMCT|협약대출비고내용
+AGLN_RNEX_DSCD|협약대출보정제외구분코드
+AGLN_RPPR_NM|협약대출대표자명
+AGLN_RSPR_NM|협약대출담당자명
+AGLN_RVSN_DSCT_YMD|협약대출보정중단년월일
+AGLN_RYMD|협약대출등록년월일
+AGLN_SRNO|협약대출일련번호
+AGLN_SSBS_YN|협약대출휴업여부
+AGLN_SUCN_NO|협약대출서브계약번호
+AGLN_TLNO|협약대출전화번호
+AGLN_TRAM|협약대출거래금액
+AGLN_TRMT_YMD|협약대출해지년월일
+AGLN_TRNS_DSCD|협약대출거래구분코드
+AGLN_TRYMD|협약대출거래년월일
+AGLN_WBCSNO|협약대출전행고객번호
+AGLO_CNSD_CLCL_YN|협약대출연체고려계산여부
+AGLO_EYMD|협약대출연체종료년월일
+AGLO_SYMD|협약대출연체시작년월일
+AGLO_YN|협약대출연체여부
+AGLP_SCHD_CLCL_YN|협약대출할부금스케줄계산여부
+AGLR_TERM_DSCD|협약대출상환기간구분코드
+ALCT_YMD|배정년월일
+AMLP_DCAP_TERM|협약대출보전12월신청기간
+AMLP_DCRN_TERM|협약대출보전12월수령기간
+AMLP_TLV_APLC_TECD|협약대출보전12신청기간코드
+AMLP_TLV_RCEP_TECD|협약대출보전12수령기간코드
+AMT.|.금액
+AMT_PTRN_CD|금액유형코드
+ANPL_APLC_TECD|협약대출이차보전신청기간코드
+ANPL_APLC_TERM|협약대출이차보전신청기간
+ANPL_BAMN|협약대출이차보전기준월
+ANPL_INRT|협약대출이차보전이율
+ANPL_PRDC_ASK_CYCL|협약대출이차보전상품청구주기
+ANPL_RCEP_TECD|협약대출이차보전수령기간코드
+ANPL_RCEP_TERM|협약대출이차보전수령기간
+ANPL_TRGT_ABL_TERM|협약대출이차보전대상가능기간
+ANPL_TRGT_DLN|협약대출이차보전대상기한
+ANPL_TRGT_DLN_CD|협약대출이차보전대상기한코드
+ANPL_TRGT_DLN_YN|협약대출이차보전대상기한여부
+ANR|미수이자
+ANR_YN|미수이자여부
+ANTM_LMT_EXCE_YMD|수시로한도초과년월일
+APLC_BRCD|신청부점코드
+APLC_EMNO|신청직원번호
+APLC_SRNO|신청일련번호
+APLC_YMD|신청년월일
+APLY_EYMD|종료 년월일
+APLY_SYMD|시작 년월일
+APLY_YMD|공통코드의 적용일자
+AREA_HDQR_CD|지역본부코드
+ASCT_TRSRNO|연관거래일련번호
+ATHR_ROLE_NM|권한역할 명
+ATHZ_EMNO|승인직원번호
+ATHZ_SRNO|일련번호
+ATHZ_YMD|승인년월일
+ATMT_RNL_YN|자동갱신 여부
+BASE_YMD|기준년월일
+BCKP_SRNO|백업일련번호
+BFMD_GRP_CD|변경전그룹코드
+BFMD_INTL_CD|변경전내부코드
+BFMD_LINE_CD|변경전라인코드
+BFMD_PDCD|변경전상품코드
+BFMD_TMPL_CD|변경전템플릿코드
+BFRP_IMDT_YN|기관에 즉시 상환 여부
+BFRP_PLAN_RCRT_YN|상환계획 재작성 코드
+BFRP_WACD|처리방법(순차, 역순차, 익년순차)
+BLNG_BRCD|소속 부점코드
+BLNG_NM|소속명
+BLNG_TEAM_CD|소속 팀코드
+BNOF_CSNO|지점고객번호
+BRCD|부점코드
+BRNC_ABNM_NM1|한글 부점의 약칭명1
+BRNC_ABNM_NM2|한글 부점의 약칭명2
+BRNC_TLNO_AREA_CD|부점 전화번호 지역코드
+BRNC_TLNO_SRNO|부점 전화번호 일련번호
+BRNC_TLNO_TONO|부점 전화번호 국번호
+BRNG_ALCT_BLNC|차입배정잔액
+BRNG_ALLAMT|차입배정금액
+BRNG_EXCN_AMT|차입실행금액
+BRNG_EXCN_BLNC|차입실행잔액
+BRNG_FMCD|차입형태코드
+BRNG_FNDS_RTO|차입금 중 차입자금 비율
+BRNG_INTT_YN|관련 차입기관 여부
+BRNG_RTO|총액한도대상상품적용차입이자율
+BRNO|사업자등록번호
+BS_CD|BS코드
+BSC_ADRS|기본주소
+BULT_CNTN|게시판의 내용
+BULT_FNSH_YMD|게시 종료일자
+BULT_STTG_YMD|게시 시작일자
+BULT_TTL|게시판의 제목
+CAAP_EXLS_BSAC_YN|주의적용배제거래처여부
+CAP_YN|회사정리절차여부
+CARE_YN|주의여부
+CAUS_NLT_RGSN_YMD|원인무효등록년월일
+CBS_TSRNO|계정계전송일련번호
+CBS_TSYMD|계정계전송년월일
+CCW|시, 군, 구명
+CHNP_ENPR_YN|체인지업기업여부
+CITY_NM|도, 시명
+CLSR_YMD|폐쇄년월일
+CMN_CDNM|공통코드관리
+CNCL_YMD|취소년월일
+CNCL_YN|취소여부
+CNFR_YMD|확인년월일
+CNRC_AMT|계약금액
+CNRC_STCD|계약상태코드
+CPPM_YMD|완제년월일
+CRNC_DSCD|통화구분코드
+CRNO|법인등록번호
+CRPT_NO|법인번호
+CRRC_DFNN_YN|신용회복확정여부
+CSBS_YMD|폐업년월일
+CSBS_YN|폐업여부
+CSNO|고객번호
+CSTM_CLSF_CD|고객분류코드
+DEC_AGLN_ERL_PMYMD|12월협약대출조기지급년월일
+DFRM_TERM|거치기간
+DFRM_TERM_EXYMD|거치기간만기년월일
+DLN_PRFT_LSRG_YMD|기한이익상실년월일
+DMND_EMNO|원장수정 요청받은 업무담당자
+DMYMD|원장 수정 요청받은 일자
+DSHR_YMD|부도년월일
+DSHR_YN|부도여부
+DTL_ADRS|상세주소
+DUTY_YMD|직무일자
+EMD|읍, 면, 동명
+EML_ADRS|이메일주소
+EMNO|직원번호
+EMPL_NM|직원명
+EMPL_ONLN_NO|직원 온라인 번호
+ENBN_YMD|입행일자
+ENSN_BRNC_NM|영문 부점명
+ENTM_FNDS_DSCD|위탁자금구분코드
+ENTM_INTT_YN|관련 위탁기관 여부
+ENTP_NM|업체명
+ENYR_BASE_STAC_YN|연말기준(12월31일) 결산 여부
+ENYR_INPI_DSCD|할부금 이자계산종료일 구분
+ENYR_PYMN_DSCD|연말기준 납입구분 코드
+EXCN_YMD|실행년월일
+EXPI_DTTM_BSDD_CD|0
+EXPI_DTTM_RPMN_RTO|만기일시방법 상환 비율
+EXYMD|만기년월일
+EYMD|종료년월일
+FCFN_ATCD|B/S 계정코드(차세대시스템이후)
+FCFN_GRP_CD|상품그룹코드
+FCFN_INTL_CD|내부코드(시설자금)
+FCFN_LINE_CD|사용되는 라인코드
+FCFN_PRDC_CD|사용되는 대출운전상품코드
+FCFN_TMPL_CD|사용되는 상품템플릿코드
+FNFU_ABSN_FNSH_YMD|직원의 부재 종료일자
+FNFU_ABSN_RSCN|직원의 부재사유 내용
+FNFU_ABSN_STCD|부재 코드(1:부재, 2:취소)
+FNFU_ABSN_STTG_YMD|직원의 부재 시작일자
+FNFU_AFMD_CNTN|원장 수정 진행 시 변경 후 상세내용
+FNFU_AFMD_HSTR|재정기금변경후내역
+FNFU_AIPR_ABYN|계정처리 관련거래의 실행 권한 (Y/N)
+FNFU_ALLAMT|재정기금배정금액
+FNFU_APLY_BRIT|현재 적용 차입이율
+FNFU_APLY_FERT|현재 적용 수수료율
+FNFU_APLY_LNIR|현재 적용 대출이율
+FNFU_ATHR_CNTL_YN|권한제어 여부
+FNFU_ATHR_ROLE_ID|권한역할 ID
+FNFU_ATMT_RNYMD|재정기금의 자동 갱신일자
+FNFU_BFMD_CNTN|원장 수정 진행 시 변경 전 상세내용
+FNFU_BFMD_HSTR|재정기금변경전내역
+FNFU_BKMR_YN|바로가기 여부
+FNFU_BLBR_DSCD|게시판의 구분코드
+FNFU_BRCD|부점코드
+FNFU_BRNC_DSCD|부점구분 코드
+FNFU_BRNC_ROLE_CD|부점역할 코드
+FNFU_BRNC_STCD|부점상태 코드
+FNFU_BRNG_APLC_NO|재정기금차입신청번호
+FNFU_BRNG_ISCD|재정기금차입기관코드
+FNFU_BRNG_LDST_CD|재정기금차입원장상태코드
+FNFU_BRNG_NO|재정기금차입번호
+FNFU_BRNG_SRNO|재정기금차입일련번호
+FNFU_BRRNO|기관,타행의 차주번호
+FNFU_BULT_NO|게시판의 게시번호
+FNFU_CGRT_CNTN|전문의 본문내용
+FNFU_CMN_CRDSCD|통화구분 코드
+FNFU_CMN_SUBJ_DSCD|과목구분 코드
+FNFU_CMSN_EMNO|위임받은 직원번호
+FNFU_CRGR_RCYN|수신된 전문내역 있는지의 여부
+FNFU_CSNO|재정기금고객번호
+FNFU_DCMN_DSCD|재정기금의 문서 종류 코드
+FNFU_DFTE_EPYMD|재정기금거치기간만료년월일
+FNFU_DMND_BRCD|원장수정을 요청받은 업무부서
+FNFU_DNIN_CTFA|재정기금운전불능누계자금액
+FNFU_DRAP_CAMT|재정기금운전신청누계금액
+FNFU_DRDF_TERM|운전자금 상환시 거치기간
+FNFU_DRHN_DLYMD|재정기금운전취급기한년월일
+FNFU_DRLN_CAMT|재정기금운전대여누계금액
+FNFU_DRRP_TERM|운전자금 거치기간 이후의상환기간
+FNFU_DRVN_ECYMD|재정기금운전실행년월일
+FNFU_DRVN_RCMD_AMT|재정기금운전추천금액
+FNFU_DTL_CD|공통코드의 상세코드 3자리
+FNFU_DUTY_CD|직무 코드
+FNFU_DWK_DSCD|특정일자의 요일
+FNFU_EDTL_DSCD|재정기금의 편집기 종류 코드
+FNFU_ENBN_DSCD|입행구분 코드
+FNFU_ENTP_SCL_CD|추천 업체 규모 구분 코드
+FNFU_ETLN_NO|재정기금위탁대여번호
+FNFU_FCAP_CAMT|재정기금시설신청누계금액
+FNFU_FCDF_TERM|시설자금 상환시 거치기간
+FNFU_FCHN_DLYMD|재정기금시설취급기한년월일
+FNFU_FCLD_CAMT|재정기금시설대여누계금액
+FNFU_FCLT_CNT|업체의 시설건수
+FNFU_FCLT_ECYMD|재정기금시설실행년월일
+FNFU_FCLT_HSTR|업체의 시설 세부 내역
+FNFU_FCLT_RCMD_AMT|재정기금시설추천금액
+FNFU_FCRP_TERM|거치기간 이후의 상환기간
+FNFU_FILE_DSCD|업로드된 파일의 성격
+FNFU_FILE_PHNM|실무가이드 파일경로
+FNFU_FLSZ_QNTT|게시판의 첨부파일의 크기
+FNFU_FNCD|기능 코드
+FNFU_FNCT_NM|기능 코드명
+FNFU_FNUS_CD|재정기금자금용도코드
+FNFU_FRTM_BRIT|차입이율 변경 전 이율
+FNFU_FRTM_FERT|수수료율 변경 전 수수료율
+FNFU_FRTM_LNIR|대출이율 변경 전 이율
+FNFU_FTIN_CTFA|재정기금시설불능누계자금액
+FNFU_FULL_CD|공통코드
+FNFU_FX_BRCD|외환부점 코드
+FNFU_FX_BRNC_DSCD|외환부점 구분 코드
+FNFU_GICD|지로 코드
+FNFU_GRP_CD|공통코드의 그룹코드 3자리
+FNFU_HDLN_CNTN|업로드파일 작업내용 기재
+FNFU_HNBR_NM|재정기금취급부점명
+FNFU_HNDL_ISCD|재정기금취급은행코드
+FNFU_IBAMT|재정기금불능금액
+FNFU_IMG_PHNM|이미지의 경로
+FNFU_INCC_WACD|이자계산방법을 구분하는 코드
+FNFU_INTS_AMT|재정기금이자금액
+FNFU_INTT_RCMD_NO|재정기금기관추천번호
+FNFU_IRQR_MMDD1|재정기금할부상환분기월일1
+FNFU_IRQR_MMDD2|재정기금할부상환분기월일2
+FNFU_IRQR_MMDD3|재정기금할부상환분기월일3
+FNFU_IRQR_MMDD4|재정기금할부상환분기월일4
+FNFU_IRQT_MMDD1|재정기금이자상환분기월일1
+FNFU_IRQT_MMDD2|재정기금이자상환분기월일2
+FNFU_IRQT_MMDD3|재정기금이자상환분기월일3
+FNFU_IRQT_MMDD4|재정기금이자상환분기월일4
+FNFU_IRRQ_MMDD1|재정기금이자회수분기월일1
+FNFU_IRRQ_MMDD2|재정기금이자회수분기월일2
+FNFU_IRRQ_MMDD3|재정기금이자회수분기월일3
+FNFU_IRRQ_MMDD4|재정기금이자회수분기월일4
+FNFU_IRTQ_MMDD1|재정기금할부회수분기월일1
+FNFU_IRTQ_MMDD2|재정기금할부회수분기월일2
+FNFU_IRTQ_MMDD3|재정기금할부회수분기월일3
+FNFU_IRTQ_MMDD4|재정기금할부회수분기월일4
+FNFU_ISAMT|재정기금할부금액
+FNFU_ISCD|외부기관 또는 타행 기관코드
+FNFU_JOB_CNTN|원장 수정 진행 시 작업의 내용
+FNFU_LAAT_EMNO|재정기금한도신청승인직원번호
+FNFU_LAAT_YMD|재정기금한도신청승인년월일
+FNFU_LAFR_RVYN|재정기금대여신청서접수여부
+FNFU_LAST_CCTN_IP|재정기금의 최종 접속IP
+FNFU_LAST_CCTN_YMD|재정기금의 최종 접속일자
+FNFU_LMAPL_AMT|재정기금한도신청금액
+FNFU_LMAPL_ATYN|재정기금한도신청승인여부
+FNFU_LMAPL_BRCD|재정기금한도신청부점코드
+FNFU_LMAPL_NO|재정기금한도신청번호
+FNFU_LMAPL_RGNO|재정기금한도신청등록번호
+FNFU_LMAPL_YMD|재정기금한도신청년월일
+FNFU_LMSM_DSCD|재정기금일괄구분코드
+FNFU_LMSM_RYMD|재정기금일괄등록년월일
+FNFU_LMT_APCT_EMNO|재정기금한도신청자직원번호
+FNFU_LMT_ATHZ_AMT|재정기금한도승인금액
+FNFU_LMT_SRNO|재정기금한도일련번호
+FNFU_LNDN_ISCD|재정기금대여기관코드
+FNFU_LNDN_LDST_CD|재정기금대여원장상태코드
+FNFU_LNDN_NO|재정기금대여번호
+FNFU_LNDN_SRNO|재정기금대여일련번호
+FNFU_LNJR_SCYMD|재정기금대출기표예정년월일
+FNFU_LOAN_EXYMD|재정기금대출만기년월일
+FNFU_LODR_ATCD|운전계정코드(차세대이전의 계정코드)
+FNFU_LODR_POLC_CD|운전시책코드(차세대이전의 시책코드)
+FNFU_LOFC_ATCD|시설계정코드(차세대이전의 계정코드)
+FNFU_LOFC_POLC_CD|시설시책코드(차세대이전의 시책코드)
+FNFU_MDFC_RSCN|원장 수정 진행 시 변경 사유
+FNFU_MEMO_CNTN|재정기금메모내용
+FNFU_MENU_YN|메뉴 여부
+FNFU_MRTG_DSCD|재정기금담보구분코드
+FNFU_NTC_TERM_YMD|온라인융자통지서의 통지 가능기간
+FNFU_ORGL_FILE_NM|게시판의 원래 첨부파일 명
+FNFU_OTPT_EN|출력거래까지 했는지의 여부
+FNFU_PB_BRNC_DSCD|PB부점 구분 코드
+FNFU_PDBL|재정기금전일잔액
+FNFU_POLC_CD.|시책의 시책 코드값
+FNFU_POLC_CLCD|시책분류코드
+FNFU_PRDD_CNT|재정기금전일건수
+FNFU_PRRM_ID|거래 식별 고유 코드값
+FNFU_PRRM_PHNM|프로그램의 경로
+FNFU_PWD|접속을 위한 사용자의 비밀번호
+FNFU_RCEN_RPPR_NM|재정기금추천업체대표자명
+FNFU_RCMD_EN.|온라인융자통지서 추천서등록거래 여부
+FNFU_RCMD_ENNM|재정기금추천업체명
+FNFU_RCMD_ISCD|재정기금추천기관코드
+FNFU_RCMD_YMD|재정기금추천년월일
+FNFU_RLNM_DSCD|재정기금실명구분코드
+FNFU_RLTD_BULT_NO|관련 게시번호
+FNFU_RLTD_SBCD|관련 과목 코드
+FNFU_RMCT|일반적인 내용을 입력
+FNFU_RPCD|전문통신시 오류 코드 값
+FNFU_RPCD_CNTN|전문통신시 오류 상세 내역
+FNFU_RPMN_DSCD|재정기금상환구분코드
+FNFU_RPMN_WAY_DSCD|차입, 대여, 위탁금 상환방법 구분코드
+FNFU_RSPN_DSCD|전문통신 거래구분코드
+FNFU_RSPR_TLNO|서울신용보증재단 담당자 번호
+FNFU_RSPT_CD|직책 코드
+FNFU_RSTR_AMT|재정기금제재금액
+FNFU_RTRC_RSCN|재정기금반려사유내용
+FNFU_RTRV_DSCD|재정기금회수구분코드
+FNFU_SBCD|자금취급과목의 코드값
+FNFU_SCHD_CNTN|일정의 내용
+FNFU_SCHD_EYMD|일정관리 종료일자
+FNFU_SCHD_SYMD|일정관리 시작일자
+FNFU_SCHD_TTL_NM|일정의 제목
+FNFU_SGSH_LDST_CD|재정기금추천서원장구분코드
+FNFU_SGSH_NO|재정기금추천서번호
+FNFU_SGSH_RGNO|재정기금추천서등록번호
+FNFU_SGSH_SRNO|재정기금추천서일련번호
+FNFU_SLCY_FNTC|해당자금의 거치 및 상환기간
+FNFU_SLCY_ITRC|재정기금내에서 사용중인 이율
+FNFU_SLCY_NTC_AMT|추천금액
+FNFU_SLCY_NTC_NO|재정기금서울시통지번호
+FNFU_SPAT_YN|재정기금책임자승인여부
+FNFU_SPCN_HSTR|온라인융자통지서 특약내역
+FNFU_SPR_FLD_CNTN1|예외적인 내용을 입력
+FNFU_SPR_FLD_CNTN2|예외적인 내용을 입력
+FNFU_SPRN_BSNS_NM|지원사업명
+FNFU_SRNO|일련번호
+FNFU_SRVR_FILE_NM|서버 첨부파일 명
+FNFU_SUBJ_NM|자금(또는 기금)의 자금명
+FNFU_TASK_NM|추천 업체 사업명 또는 사업활동
+FNFU_THD_BLNC|재정기금금일잔액
+FNFU_THD_CNT|재정기금금일건수
+FNFU_TLNO|추천받은 업체의 전화번호
+FNFU_TRGT_TBL_NM|원장 수정 시 변경되는 테이블명
+FNFU_TRMN_BRCD|단말부점 코드
+FNFU_TRMN_LGN_YN|단말로그인 여부 수신
+FNFU_TRNS_DSCD42|온라인통지서 관련 거래구분코드
+FNFU_TRPT_CD|재정기금거래유형코드
+FNFU_TRSRNO|재정기금거래일련번호
+FNFU_TXHS1|재정기금관련 등록내역의 시분초
+FNFU_WBCSNO|관련 전행고객번호
+FNFU_YEAR|재정기금년
+FNSH_ARNB|우편번호 주소의 종료지번
+FRST_INSL_RTRV_YMD|최초할부회수년월일
+FRST_ISRP_YMD|최초할부상환년월일
+FRST_OVRD_OCRN_YMD|최초연체발생년월일
+FRST_RGSN_EMNO|최초등록직원번호
+FRST_RGSN_YMD|최초등록년월일
+FRUS_YN|주로 사용하는지 여부
+FXNO|팩스번호
+FXNO_SRNO|팩스번호 일련번호
+FXNO_SRNO2|팩스번호 일련번호2
+FXNO_TON2|팩스번호 국번2
+FXNO_TONO|팩스번호 국번호
+FXOV_YN|고정연체여부
+GNDR_CNTN|성별 내용
+GRP_CD|그룹코드
+HLDD_YN|특정일자가 휴일인지의 여부
+HMBR_APRR_EMNO|취급모점승인자직원번호
+HMBR_ATYMD|취급모점승인년월일
+HMBR_ATYN|취급모점승인여부
+HNDL_BRCD|취급부점코드
+HNDL_INTT_YN|0
+HNDL_MBCD|취급모점코드
+ICDNC_INCL_DSCD|이자일수 산입 구분 코드
+ICNO|내부계약번호
+INBL_RTRV_INTS_AMT|불능회수이자금액
+INBL_RTRV_ISAMT|불능회수할부금액
+INCC_HLLS_DSCD|휴일포함 계산 구분 코드
+INCC_RPMN_DAY_INYN|상환일 포함 여부
+INDV_DEBT_RVVL_YN|개인채무회생여부
+INEL_MTBR_YN|타행환모점 여부
+INPM_BFRP_AMT|할부금기한전상환금액
+INPM_BFRP_CCAMT|할부금기한전상환취소금액
+INPM_BFRP_CCCNT|할부금기한전상환취소건수
+INPM_BFRP_CNT|할부금기한전상환건수
+INPM_BFTL_RTAMT|할부금기한전회수금액
+INPM_BFTL_RTRV_CNT|할부금기한전회수건수
+INPM_BTLR_CCAMT|할부금기한전회수취소금액
+INPM_BTLR_CCCNT|할부금기한전회수취소건수
+INPM_FRAM_UNCD|할부금 단수단위를 구분하는 코드
+INPM_GRAL_STCD|할부금유예신청상태코드
+INPM_GRCE_DSCD|할부금유예구분코드
+INPM_INCL_DSCD|나머지 금액 산입 구분 코드
+INPM_RGIN_RTAMT|할부금정기회수금액
+INPM_RGIN_RTRV_CNT|할부금정기회수건수
+INPM_RGIR_AMT|할부금정기상환금액
+INPM_RGIR_CCAMT|할부금정기상환취소금액
+INPM_RGIR_CCCNT|할부금정기상환취소건수
+INPM_RGIR_CNT|할부금정기상환건수
+INPM_RIRT_CCAMT|할부금정기회수취소금액
+INPM_RIRT_CCCNT|할부금정기회수취소건수
+INPM_RPCL_CD|할부금상환주기코드
+INPM_RPCL_DSCD|할부금상환주기구분코드
+INPM_RPDA_CD|할부금상환일자코드
+INPM_RTCC_DSCD|할부금회수주기구분코드
+INPM_RTDY_CD|할부금회수일자코드
+INPM_RTRV_CYCD|할부금회수주기코드
+INRP_CYCD|이자상환주기코드
+INRP_CYCL_DSCD|이자상환주기구분코드
+INRT|이율
+INRY_INTS_AMT|불능상환이자금액
+INRY_ISAMT|불능상환할부금액
+INRY_PLAN_RCRT_YN|불능상환계획재생성여부
+INSL_OVRD_FRAMT|할부연체외화금액
+INSL_OVRD_WNCR_AMT|할부연체원화금액
+INTL_CD|내부코드
+INTS_BFRP_AMT|이자기한전상환금액
+INTS_BFRP_CCAMT|이자기한전상환취소금액
+INTS_BFRP_CCCNT|이자기한전상환취소건수
+INTS_BFRP_CNT|이자기한전상환건수
+INTS_BFTL_RTAMT|이자기한전회수금액
+INTS_BFTL_RTRV_CNT|이자기한전회수건수
+INTS_BTLR_CCAMT|이자기한전회수취소금액
+INTS_BTLR_CCCNT|이자기한전회수취소건수
+INTS_CLCL_EYMD|이자계산종료년월일
+INTS_CLCL_STTG_YMD|이자계산시작년월일
+INTS_CLCL_TRGT_AMT|이자계산대상금액
+INTS_DDNC|이자일수
+INTS_FRAM_PCCD|이자단수처리 적용 구분 코드
+INTS_FRAM_UNCD|이자 단수단위를 구분하는 코드
+INTS_OVRD_TMCT|이자연체횟수
+INTS_RGIN_RTAMT|이자정기회수금액
+INTS_RGIN_RTRV_CNT|이자정기회수건수
+INTS_RGIR_AMT|이자정기상환금액
+INTS_RGIR_CCAMT|이자정기상환취소금액
+INTS_RGIR_CCCNT|이자정기상환취소건수
+INTS_RGIR_CNT|이자정기상환건수
+INTS_RIRT_CCAMT|이자정기회수취소금액
+INTS_RIRT_CCCNT|이자정기회수취소건수
+INTS_RPDA_CD|이자상환일자코드
+INTS_RTDY_CD|이자회수일자코드
+INTT_ANM|0
+INTT_NM.|관련 기관 또는 타행명
+INTY_LOAN_YMD|당초대출년월일
+IP_ADRS|IP주소
+IQCN|조회 건수
+IRRT_CYCL_CD|이자회수주기코드
+IRRT_CYCL_DSCD|이자회수주기구분코드
+ITEM_LVL_NO|내의 레벨
+JOB_YMD|작업년월일
+JRNL_DLN_DDNC|기표해야하는 기한일 수
+JRNL_DLN_DDNC_DSCD|기표기한일수 구분 코드
+KRN_BRNC_NM|한글 부점명
+LAST_AMNN_EMNO|최종수정직원번호
+LAST_PIA_IPYMD|최종원리금수입년월일
+LDGR_DSCD|원장구분코드
+LGL_PRCD_YN|법적절차여부
+LHL_APLC_NO|여신취급한도신청번호
+LINE_CD|라인코드
+LMAL_RSCN|한도신청을 제한하는 사유
+LMAPL_MDFC_DSCD|한도신청변경구분코드
+LNDN_DSCD|대여구분코드(1:당행, 2:타행)
+LNDN_EXCN_AMT|대여실행금액
+LNDN_EXCN_BLNC|대여실행잔액
+LNDN_FMCD|대여형태코드
+LNDN_INTT_YN|재정기금관련 대여기관 여부
+LNP_SQNO|내의 정렬순서번호
+LOAN_ACNO|대출계좌번호
+LOAN_BLNC|대출잔액
+LOAN_BLNC_FRCY|대출잔액외화
+LOAN_BLNC_WNCR|대출잔액원화
+LOAN_EXCN_AMT|대출실행금액
+LOAN_YMD|대출년월일
+LST_AMNN_YMD|최종수정년월일
+LST_INTS_IPRT_YMD|최종이자수입년월일
+LST_MDFC_YMD|최종변경년월일
+MBCD|모점코드
+MDFC_YMD|변경년월일
+MEMO_CNTN|메모내용
+MKR_EMNO|내에서 작성한 사용자 ID
+MNDT_CD|보임코드
+MNGM_BRCD|관리부점코드
+MRLN_CNVY_YN|모기지론양도여부
+MRTG_CD|담보코드
+MSG_CD|메시지코드
+NEW_EXCN_AMT|신규실행금액
+NEW_EXCN_CCAMT|신규실행취소금액
+NEW_EXCN_CCCNT|신규실행취소건수
+NEW_EXCN_CNT|신규실행건수
+NEW_YMD|신규년월일
+NMAD_APT_APNO|번지, 아파트동
+NRMT_RPMN_INTS_AMT|정상상환이자금액
+NRMT_RPMN_ISAMT|정상상환할부금액
+NTC_NO|온라인통지서 식별 코드
+NTC_YMD|영업점 통지 일자
+NXGN_ACIT_BS_CD|차세대 계정 B/S 코드
+NXGN_ACIT_PL_CD|차세대 계정 P/L 코드
+NXGN_BS_ATCD|차세대BS계정코드
+ODAMT_FRCY|연체금액외화
+ODAMT_WNCR|연체금액원화
+ONBN_FNDS_RTO|당행자금 비율
+ONLN_NO|온라인번호
+OPBR_YMD|개점년월일
+OTIS_PRDE_CNTN|대외기관상품설명
+OTSD_INTT_PRDC_YN|대외기관안내여부
+OVRD_DDNC|연체일수
+OVRD_OCRN_YMD|연체발생년월일
+OVRD_YN|연체여부
+PB_BRNC_YN|PB부점 여부
+PCSN_EMNO|원장 수정 작업을 작업한 담당자 ID
+PCSN_YMD|작업일자
+PCSN_YN|실제 처리 구분자
+PL_CD|PL코드
+PMTG_INTT_YN|관련 조성기관 여부
+POLC_CD|시책코드
+POLC_CLSF_NM|시책분류 한글명
+POLC_NM|시책명
+PRDC_CD|상품코드
+PRNC_EQL_RPMN_RTO|원금균등방법 상환 비율
+PRRM_KRN_NM|거래 프로그램 한글명
+PRTT_EXCN_INCC_CD|이자계산방법 구분 코드
+PSNT_BLNG_YMD|현재 소속일자
+PSNT_OVRD_YN|현재연체여부
+PWD_ERR_TMCT|비밀번호 오류 횟수
+PWD_MDFC_YMD|비밀번호 변경일자
+RCEN_ADRS|추천업체주소
+RCEN_BRNO|추천업체사업자등록번호
+RCEN_BSNS_HSTR|추천업체사업내역
+RCEN_CRPT_NO|추천업체법인번호
+RCEN_SCL_CD|추천업체규모코드
+RCEN_TLNO|추천업체전화번호
+RCEN_ZPCD|추천업체우편번호
+RCMD_INTT_YN|관련 추천기관 여부
+RCV_EMNO|수신자직원번호
+RDAP_EXLS_BSAC_YN|적색적용배제거래처여부
+REAL_RPMN_INTS_AMT|실상환이자금액
+REAL_RPMN_ISAMT|실상환할부금액
+REAL_RPMN_YMD|실상환년월일
+REAL_RTRV_INTS_AMT|실회수이자금액
+REAL_RTRV_ISAMT|실회수할부금액
+REAL_RTRV_YMD|실회수년월일
+RED_BSAC_YN|적색거래처여부
+RGIN_RTRV_INTS_AMT|정기회수이자금액
+RGIN_RTRV_ISAMT|정기회수할부금액
+RGIR_IMDT_YN|즉시 상환 여부
+RISK_WGHT_RT|내 위험 가중치율
+RM_BRNC_YN|RM부점 여부
+RMK1|일반적인 내용을 입력
+RMK3|비고3
+RNNO|온라인융자통지서 실명번호
+RNNO1|실명번호1
+RPMN_RTO|상환비율
+RPMN_TERM|상환기간
+RPPL_WPIT_DSCD|시작시점 코드
+RPPR_NM.|.추천받은 대표자명
+RPPR1_RRNO15|대표자1주민등록번호15
+RRNO|주민등록번호
+RSPR|기관, 타행의 담당자
+RSTR_RPMN_INTS_AMT|제재상환이자금액
+RSTR_RPMN_ISAMT|제재상환할부금액
+RSTR_RTRV_INTS_AMT|제재회수이자금액
+RSTR_RTRV_ISAMT|제재회수할부금액
+RTRM_YMD|퇴직일자
+SCDL_RPMN_ISAMT|예정상환할부금액
+SCDL_RPMN_YMD|예정상환년월일
+SCDL_RTRV_ISAMT|예정회수할부금액
+SCDL_RTRV_YMD|예정회수년월일
+SGSH_MDFC_DSCD|추천서변경구분코드
+SGSH_RGSN_REQS_YN|추천서등록의뢰여부
+SLCL|호봉
+SLCL_YMD|호봉일자
+SRM_BRNC_YN|SRM부점 여부
+SRNO|일련번호
+SSBS_YMD|휴업년월일
+SSBS_YN|휴업여부
+STTG_ARNB|우편번호 주소의 시작지번
+SYMD|시작년월일
+TB_PCC_ANART_C_A|협약대출협약기관
+TB_PCC_ANCHN_H_A|협약대출변경내역
+TB_PCC_ANDDI_L_D|협약대출연체정보내역
+TB_PCC_ANDLY_L_A|협약대출연체내역
+TB_PCC_ANLGR_M_A|협약대출원장
+TB_PCC_ANLRC_H_A|협약대출원장변경내역
+TB_PCC_ANPLL_I_A|협약대출시책내역
+TB_PCC_ANPLR_I_A|협약대출시책이율
+TB_PCC_ANTRN_L_A|협약대출거래내역
+TB_PCC_BGABS_I_O|부재내역관리
+TB_PCC_BGALC_R_A|차입승인배정내역
+TB_PCC_BGALN_R_A|차입배정대출내역
+TB_PCC_BGAPR_I_A|권한롤프로그램관리
+TB_PCC_BGATH_I_A|권한롤관리
+TB_PCC_BGBAL_L_D|차입계좌별집계내역
+TB_PCC_BGBRD_I_A|게시판관리
+TB_PCC_BGBRN_I_O|부점관리
+TB_PCC_BGCOD_C_A|공통코드관리
+TB_PCC_BGFLE_I_A|파일관리
+TB_PCC_BGFNC_I_A|기능관리
+TB_PCC_BGFRT_H_A|자금취급수수료율이력
+TB_PCC_BGHLY_I_Y10|휴일관리
+TB_PCC_BGHLY_I_Y3|휴일관리
+TB_PCC_BGHLY_I_Y4|휴일관리
+TB_PCC_BGHLY_I_Y5|휴일관리
+TB_PCC_BGHLY_I_Y6|휴일관리
+TB_PCC_BGHLY_I_Y7|휴일관리
+TB_PCC_BGHLY_I_Y8|휴일관리
+TB_PCC_BGHLY_I_Y9|휴일관리
+TB_PCC_BGIRP_L_O|차입이자상환계획
+TB_PCC_BGITA_M_A|ITA파일원장
+TB_PCC_BGITT_M_O|기관관리
+TB_PCC_BGLDG_B_O|차입실행원장백업
+TB_PCC_BGLDG_L_A|원장수정내역관리
+TB_PCC_BGLDG_M_O|차입실행원장
+TB_PCC_BGMSG_D_A|메시지전송상세내역
+TB_PCC_BGMSG_M_A|메시지전송내역
+TB_PCC_BGPCR_I_A|시책이율이력
+TB_PCC_BGPGA_M_O|할부금유예신청
+TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+TB_PCC_BGPLC_M_A|시책
+TB_PCC_BGPLR_I_A|한도신청제한이력
+TB_PCC_BGPLT_M_A|한도신청내역
+TB_PCC_BGPLU_H_O|한도신청변경내역
+TB_PCC_BGPRM_I_A|프로그램관리
+TB_PCC_BGPRP_L_O|차입할부금상환계획
+TB_PCC_BGPSU_S_D|차입시책별집계내역
+TB_PCC_BGSBJ_I_O|과목원장관리
+TB_PCC_BGSBK_C_A|과목별추천기관
+TB_PCC_BGSCH_I_A|일정
+TB_PCC_BGSLG_I_A|서울시로그원장
+TB_PCC_BGSLL_M_A|서울시원장
+TB_PCC_BGSSL_M_A|추천서원장
+TB_PCC_BGSSU_H_O|추천서변경내역
+TB_PCC_BGTRN_D_O|차입거래상환상세내역
+TB_PCC_BGTRN_L_O|차입거래내역
+TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+TB_PCC_BGUSR_I_D10|사용자관리
+TB_PCC_BGUSR_I_D11|사용자관리
+TB_PCC_BGUSR_I_D12|사용자관리
+TB_PCC_BGUSR_I_D13|사용자관리
+TB_PCC_BGUSR_I_D14|사용자관리
+TB_PCC_BGUSR_I_D15|사용자관리
+TB_PCC_BGUSR_I_D16|사용자관리
+TB_PCC_BGUSR_I_D17|사용자관리
+TB_PCC_BGUSR_I_D18|사용자관리
+TB_PCC_BGUSR_I_D19|사용자관리
+TB_PCC_BGUSR_I_D20|사용자관리
+TB_PCC_BGUSR_I_D21|사용자관리
+TB_PCC_BGUSR_I_D22|사용자관리
+TB_PCC_BGUSR_I_D23|사용자관리
+TB_PCC_BGUSR_I_D24|사용자관리
+TB_PCC_BGUSR_I_D25|사용자관리
+TB_PCC_BGUSR_I_D26|사용자관리
+TB_PCC_BGUSR_I_D27|사용자관리
+TB_PCC_BGUSR_I_D28|사용자관리
+TB_PCC_BGUSR_I_D29|사용자관리
+TB_PCC_BGUSR_I_D3|사용자관리
+TB_PCC_BGUSR_I_D30|사용자관리
+TB_PCC_BGUSR_I_D31|사용자관리
+TB_PCC_BGUSR_I_D32|사용자관리
+TB_PCC_BGUSR_I_D33|사용자관리
+TB_PCC_BGUSR_I_D34|사용자관리
+TB_PCC_BGUSR_I_D35|사용자관리
+TB_PCC_BGUSR_I_D36|사용자관리
+TB_PCC_BGUSR_I_D37|사용자관리
+TB_PCC_BGUSR_I_D38|사용자관리
+TB_PCC_BGUSR_I_D4|사용자관리
+TB_PCC_BGUSR_I_D5|사용자관리
+TB_PCC_BGUSR_I_D6|사용자관리
+TB_PCC_BGUSR_I_D7|사용자관리
+TB_PCC_BGUSR_I_D8|사용자관리
+TB_PCC_BGUSR_I_D9|사용자관리
+TB_PCC_BGZIP_I_O|우편번호관리
+TB_PCC_EMBAL_L_D|위탁계좌별집계내역
+TB_PCC_EMIRP_L_O|위탁이자회수계획
+TB_PCC_EMLDG_B_O|위탁실행원장백업
+TB_PCC_EMLDG_M_O|위탁실행원장
+TB_PCC_EMPRP_L_O|위탁할부금회수계획
+TB_PCC_EMPSU_S_D|위탁시책별집계내역
+TB_PCC_EMTRN_D_O|위탁거래회수상세내역
+TB_PCC_EMTRN_L_O|위탁거래내역
+TB_PCC_LNBAL_L_D|대여계좌별집계내역
+TB_PCC_LNIRP_L_O|대여이자회수계획
+TB_PCC_LNLDG_B_O|대여실행원장백업
+TB_PCC_LNLDG_M_O|대여실행원장
+TB_PCC_LNPRP_L_O|대여할부금회수계획
+TB_PCC_LNPSU_S_D|대여시책별집계내역
+TB_PCC_LNTRN_D_O|대여거래회수상세내역
+TB_PCC_LNTRN_L_O|대여거래내역
+TEAM_DSCD|팀구분코드
+TEAM_KRN_NM|팀한글명
+TGYN|.
+TLNO|전화번호
+TMBT|회차
+TMNO|단말기 단말번호
+TMPL_CD|템플릿코드
+TRMS_YMD|전송년월일
+TRMT_YMD|해지년월일
+TRNS_AMT|거래금액
+TRNS_STCD|거래상태코드
+TRNS_YMD|등록일자 년월일
+TRTH_WORK_BRCD|실제 근무부점 코드
+UNN_CD|합동코드
+USE_YN|사용여부
+VLD_EYMD|유효종료년월일
+VLD_STTG_YMD|유효시작년월일
+WHBN_CSNO|전행고객번호
+WHERE 1 = 1|↙조건절
+WLIN_IPYMD|전최종이자수입년월일
+WRFN_ATCD|B/S 계정코드(차세대시스템이후)
+WRFN_GRP_CD|상품그룹코드
+WRFN_INTL_CD|내부코드(운전자금)
+WRFN_LINE_CD|라인코드
+WRFN_PRDC_CD|대출운전상품코드
+WRFN_TMPL_CD|상품템플릿코드
+WROF_YN|상각여부
+WRTN_YMD|작성일자
+WTCNS_BILN_DDNC|동의서 징구 최소일수
+ZPCD|우편번호
+TB_PCC_BGLNL_M_D|대출원장
