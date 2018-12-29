@@ -1,0 +1,6 @@
+50 행: clip 컨트롤의 PicClip.PictureClip 클래스는 로드한 컨트롤 클래스가 아닙니다.
+53 행: clip의 _ExtentX 속성 이름이 잘못되었습니다. 
+54 행: clip의 _ExtentY 속성 이름이 잘못되었습니다. 
+55 행: clip의 _Version 속성 이름이 잘못되었습니다. 
+56 행: clip의 Rows 속성 이름이 잘못되었습니다. 
+57 행: clip의 Cols 속성 이름이 잘못되었습니다. 
