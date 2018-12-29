@@ -1,0 +1,1018 @@
+AGLN_ISCD|1|1|N|CHAR (4 Byte)|협약대출기관코드|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLN_INTT_NM|2||Y|VARCHAR2 (50 Byte)|협약대출기관명|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+ZPCD|3||Y|CHAR (6 Byte)|우편번호|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+BSC_ADRS|4||Y|VARCHAR2 (50 Byte)|기본주소|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+DTL_ADRS|5||Y|VARCHAR2 (50 Byte)|상세주소|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLN_TLNO|6||Y|VARCHAR2 (20 Byte)|협약대출전화번호|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+FXNO|7||Y|CHAR (20 Byte)|팩스번호|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLN_RSPR_NM|8||Y|VARCHAR2 (20 Byte)|협약대출담당자명|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+EML_ADRS|9||Y|VARCHAR2 (50 Byte)|이메일주소|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLN_DVSN_NM|10||Y|VARCHAR2 (50 Byte)|협약대출부서명|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLR_TERM_DSCD|11||Y|CHAR (6 Byte)|협약대출상환기간구분코드|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLN_RNEX_DSCD|12||Y|CHAR (6 Byte)|협약대출보정제외구분코드|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLN_ERPD_STUP_YN|13||Y|CHAR (1 Byte)|협약대출조기지급일설정여부|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLN_ERL_PMYMD|14||Y|DATE|협약대출조기지급년월일|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLO_CNSD_CLCL_YN|15||Y|CHAR (1 Byte)|협약대출연체고려계산여부|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLN_LSIN_RVN_APYN|16||Y|CHAR (1 Byte)|협약대출최종이자수입적용여부|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+CNCL_YN|17||Y|CHAR (1 Byte)|취소여부|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+AGLP_SCHD_CLCL_YN|18||Y|CHAR (1 Byte)|협약대출할부금스케줄계산여부|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+FRST_RGSN_YMD|19||Y|DATE|최초등록년월일|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+FRST_RGSN_EMNO|20||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+LST_AMNN_YMD|21||Y|DATE|최종수정년월일|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+LAST_AMNN_EMNO|22||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_ANART_C_A|협약대출협약기관
+LINE_CD|1|1|N|CHAR (2 Byte)|라인코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+GRP_CD|2|2|N|CHAR (2 Byte)|그룹코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+TMPL_CD|3|3|N|CHAR (3 Byte)|템플릿코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+PRDC_CD|4|4|N|CHAR (3 Byte)|상품코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+INTL_CD|5|5|N|CHAR (3 Byte)|내부코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AGLN_NXGN_BS_ATCD|6||Y|CHAR (10 Byte)|협약대출차세대BS계정코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AGLN_POLC_NM|7||Y|VARCHAR2 (80 Byte)|협약대출시책명|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AGLN_PLAS_DSCD|8||Y|CHAR (6 Byte)|협약대출시책활동상태구분코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AGLN_RMCT|9||Y|VARCHAR2 (100 Byte)|협약대출비고내용|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AGLN_RYMD|10||Y|DATE|협약대출등록년월일|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AGLN_MBCD|11||Y|CHAR (4 Byte)|협약대출모점코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AGLN_AGRN_ISCD|12||Y|CHAR (4 Byte)|협약대출협약기관코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AGLM_PER_IRSU_YN|13||Y|CHAR (1 Byte)|협약대출기간별이율설정여부|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+ANPL_TRGT_DLN_YN|14||Y|CHAR (1 Byte)|협약대출이차보전대상기한여부|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+ANPL_TRGT_DLN|15||Y|NUMBER (6)|협약대출이차보전대상기한|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+ANPL_TRGT_DLN_CD|16||Y|CHAR (6 Byte)|협약대출이차보전대상기한코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+ANPL_PRDC_ASK_CYCL|17||Y|CHAR (6 Byte)|협약대출이차보전상품청구주기|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+ANPL_BAMN|18||Y|CHAR (6 Byte)|협약대출이차보전기준월|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+ANPL_APLC_TERM|19||Y|NUMBER (6)|협약대출이차보전신청기간|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+ANPL_APLC_TECD|20||Y|CHAR (6 Byte)|협약대출이차보전신청기간코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AMLP_DCAP_TERM|21||Y|NUMBER (6)|협약대출보전12월신청기간|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AMLP_TLV_APLC_TECD|22||Y|CHAR (6 Byte)|협약대출보전12신청기간코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+ANPL_RCEP_TERM|23||Y|NUMBER (6)|협약대출이차보전수령기간|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+ANPL_RCEP_TECD|24||Y|CHAR (6 Byte)|협약대출이차보전수령기간코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AMLP_DCRN_TERM|25||Y|NUMBER (6)|협약대출보전12월수령기간|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+AMLP_TLV_RCEP_TECD|26||Y|CHAR (6 Byte)|협약대출보전12수령기간코드|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+USE_YN|27||Y|CHAR (1 Byte)|사용여부|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+CNCL_YN|28||Y|CHAR (1 Byte)|취소여부|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+FRST_RGSN_YMD|29||Y|DATE|최초등록년월일|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+FRST_RGSN_EMNO|30||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+LST_AMNN_YMD|31||Y|DATE|최종수정년월일|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+LAST_AMNN_EMNO|32||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_ANPLL_I_A|협약대출시책내역
+LINE_CD|1|1|N|CHAR (2 Byte)|라인코드|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+GRP_CD|2|2|N|CHAR (2 Byte)|그룹코드|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+TMPL_CD|3|3|N|CHAR (3 Byte)|템플릿코드|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+PRDC_CD|4|4|N|CHAR (3 Byte)|상품코드|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+INTL_CD|5|5|N|CHAR (3 Byte)|내부코드|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+AGLN_SRNO|6|6|N|NUMBER (9)|협약대출일련번호|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+AGLI_APLY_DSCD|7||Y|CHAR (6 Byte)|협약대출이자적용구분코드|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+AGLI_APSR_CNTN|8||Y|VARCHAR2 (20 Byte)|협약대출이자적용시작값|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+AGLI_FNAP_CNTN|9||Y|VARCHAR2 (20 Byte)|협약대출이자적용종료값|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+ANPL_INRT|10||Y|"NUMBER (9,6)"|협약대출이차보전이율|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+CNCL_YN|11||Y|CHAR (1 Byte)|취소여부|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+FRST_RGSN_YMD|12||Y|DATE|최초등록년월일|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+FRST_RGSN_EMNO|13||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+LST_AMNN_YMD|14||Y|DATE|최종수정년월일|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+LAST_AMNN_EMNO|15||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_ANPLR_I_A|협약대출시책이율
+EMNO|1|1|N|CHAR (6 Byte)|재정기금에서 사용하는 직원번호|Yes|TB_PCC_BGABS_I_O|부재내역관리
+FNFU_SRNO|2|2|N|NUMBER (9)|재정기금에서 사용하는 일련번호|Yes|TB_PCC_BGABS_I_O|부재내역관리
+FNFU_ABSN_STTG_YMD|3||Y|DATE|재정기금에서 사용하는 직원의 부재 시작일자|Yes|TB_PCC_BGABS_I_O|부재내역관리
+FNFU_ABSN_FNSH_YMD|4||Y|DATE|재정기금에서 사용하는 직원의 부재 종료일자|Yes|TB_PCC_BGABS_I_O|부재내역관리
+FNFU_ABSN_RSCN|5||Y|VARCHAR2 (200 Byte)|재정기금에서 사용하는 직원의 부재사유 내용|Yes|TB_PCC_BGABS_I_O|부재내역관리
+FNFU_CMSN_EMNO|6||Y|CHAR (6 Byte)|재정기금에서 사용하는 위임받은 직원번호|Yes|TB_PCC_BGABS_I_O|부재내역관리
+FNFU_ABSN_STCD|7||Y|CHAR (1 Byte)|"재정기금에서 사용하는 부재 상태코드(1:부재, 2:취소)"|Yes|TB_PCC_BGABS_I_O|부재내역관리
+FRST_RGSN_YMD|8||Y|DATE|최초 등록일자|Yes|TB_PCC_BGABS_I_O|부재내역관리
+FRST_RGSN_EMNO|9||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGABS_I_O|부재내역관리
+LST_AMNN_YMD|10||Y|DATE|최종 수정일자|Yes|TB_PCC_BGABS_I_O|부재내역관리
+LAST_AMNN_EMNO|11||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGABS_I_O|부재내역관리
+FNFU_LMAPL_NO|1|1|N|CHAR (23 Byte)|재정기금한도신청번호|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FNNL_FUND_BRNG_NO|2|2|N|CHAR (12 Byte)|재정기금차입번호|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FNFU_LNDN_NO|3|3|N|CHAR (12 Byte)|재정기금대여번호|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FNFU_ETLN_NO|4|4|N|CHAR (12 Byte)||Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FNFU_BRNG_APLC_NO|5|5|N|CHAR (12 Byte)|재정기금차입신청번호|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+ATHZ_SRNO|6|6|N|NUMBER (10)|일련번호|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+LDGR_DSCD|7||Y|CHAR (1 Byte)|원장구분코드|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FNFU_SGSH_NO|8||N|CHAR (12 Byte)|재정기금추천서번호|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+ALCT_YMD|9||Y|DATE|배정년월일|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+CNCL_YN|10||Y|CHAR (1 Byte)|취소여부|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+CNCL_YMD|11||Y|DATE|취소년월일|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FNFU_ALLAMT|12||Y|"NUMBER (18,3)"|재정기금배정금액|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FNFU_IBAMT|13||Y|"NUMBER (18,3)"|재정기금불능금액|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FNFU_RSTR_AMT|14||Y|"NUMBER (18,3)"|재정기금제재금액|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FRST_RGSN_YMD|15||Y|DATE|최초등록년월일|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FRST_RGSN_EMNO|16||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+LST_AMNN_YMD|17||Y|DATE|최종수정년월일|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+LAST_AMNN_EMNO|18||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGALC_R_A|차입승인배정내역
+FNFU_LMAPL_NO|1|1|N|CHAR (23 Byte)|재정기금한도신청번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+FNNL_FUND_BRNG_NO|2|2|N|CHAR (12 Byte)|재정기금차입번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+FNFU_LNDN_NO|3|3|N|CHAR (12 Byte)|재정기금대여번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+FNFU_ETLN_NO|4|4|N|CHAR (12 Byte)||Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+FNFU_BRNG_APLC_NO|5|5|N|CHAR (12 Byte)|재정기금차입신청번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+ATHZ_SRNO|6|6|N|NUMBER (10)|일련번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+SRNO|7|7|N|NUMBER (7)||Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+LHL_APLC_NO|8||Y|NUMBER (9)|여신취급한도신청번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+LINE_CD|9||Y|CHAR (2 Byte)|라인코드|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+GRP_CD|10||Y|CHAR (2 Byte)|그룹코드|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+TMPL_CD|11||Y|CHAR (3 Byte)|템플릿코드|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+PRDC_CD|12||Y|CHAR (3 Byte)|상품코드|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+POLC_CD|13||Y|CHAR (3 Byte)|시책코드|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+CBS_TSYMD|14||Y|DATE|계정계전송년월일|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+CBS_TSRNO|15||Y|NUMBER (10)|계정계전송일련번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+CNCL_YN|16||Y|CHAR (1 Byte)|취소여부|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+CNCL_YMD|17||Y|DATE|취소년월일|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+LOAN_ACNO|18||Y|CHAR (16 Byte)|대출계좌번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+ICNO|19||Y|CHAR (15 Byte)|내부계약번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+FRST_RGSN_YMD|20||Y|DATE|최초등록년월일|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+FRST_RGSN_EMNO|21||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+LST_AMNN_YMD|22||Y|DATE|최종수정년월일|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+LAST_AMNN_EMNO|23||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGALN_R_A|차입배정대출내역
+FNFU_ATHR_ROLE_ID|1|1|N|CHAR (6 Byte)|재정기금에서 사용하는 공통코드에 등록되어 있는 권한역할 ID|Yes|TB_PCC_BGAPR_I_A|권한롤프로그램관리
+FNFU_PRRM_ID|2|2|N|CHAR (7 Byte)|재정기금에서 사용하는 각각의 거래를 식별하기위한 고유 코드값(영문4+숫자3)|Yes|TB_PCC_BGAPR_I_A|권한롤프로그램관리
+FNFU_FNCD|3|3|N|CHAR (2 Byte)|재정기금에서 사용하는 기능 코드|Yes|TB_PCC_BGAPR_I_A|권한롤프로그램관리
+FNFU_BKMR_YN|4||Y|CHAR (1 Byte)|재정기금에서 사용하는 바로가기 여부|Yes|TB_PCC_BGAPR_I_A|권한롤프로그램관리
+FRST_RGSN_YMD|5||Y|DATE|최초 등록일자|Yes|TB_PCC_BGAPR_I_A|권한롤프로그램관리
+FRST_RGSN_EMNO|6||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGAPR_I_A|권한롤프로그램관리
+LST_AMNN_YMD|7||Y|DATE|최종 수정일자|Yes|TB_PCC_BGAPR_I_A|권한롤프로그램관리
+LAST_AMNN_EMNO|8||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGAPR_I_A|권한롤프로그램관리
+BASE_YMD|1|1|N|DATE|기준년월일|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+FNNL_FUND_BRNG_NO|2|2|N|CHAR (12 Byte)|재정기금차입번호|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+BRNG_EXCN_AMT|3||Y|"NUMBER (18,3)"|차입실행금액|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+RGIR_INSL_AMT|4||Y|"NUMBER (18,3)"|정기상환할부금액|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+RGIR_INTS_AMT|5||Y|"NUMBER (18,3)"|정기상환이자금액|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+BFRP_INSL_AMT|6||Y|"NUMBER (18,3)"|기한전상환할부금액|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+BFRP_INTS_AMT|7||Y|"NUMBER (18,3)"|기한전상환이자금액|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+INRY_ISAMT|8||Y|"NUMBER (18,3)"|불능상환할부금액|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+INRY_INTS_AMT|9||Y|"NUMBER (18,3)"|불능상환이자금액|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+RSTR_RPMN_ISAMT|10||Y|"NUMBER (18,3)"|제재상환할부금액|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+RSTR_RPMN_INTS_AMT|11||Y|"NUMBER (18,3)"|제재상환이자금액|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+BRNG_EXCN_BLNC|12||Y|"NUMBER (18,3)"|차입실행잔액|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+FRST_RGSN_YMD|13||Y|DATE|최초등록년월일|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+FRST_RGSN_EMNO|14||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+LST_AMNN_YMD|15||Y|DATE|최종수정년월일|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+LAST_AMNN_EMNO|16||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGASU_S_D|차입계좌별집계내역
+FNFU_ATHR_ROLE_ID|1|1|N|CHAR (6 Byte)|재정기금에서 사용하는 공통코드에 등록되어 있는 권한역할 ID|Yes|TB_PCC_BGATH_I_A|권한롤관리
+ATHR_ROLE_NM|2||Y|VARCHAR2 (50 Byte)|재정기금에서 사용하는 공통코드에 등록되어 있는 권한역할 명|Yes|TB_PCC_BGATH_I_A|권한롤관리
+USE_YN|3||Y|CHAR (1 Byte)|재정기금 내의 사용여부|Yes|TB_PCC_BGATH_I_A|권한롤관리
+RMK1|4||Y|VARCHAR2 (500 Byte)|재정기금에서 사용하는 일반적인 내용을 입력(500 Byte)|Yes|TB_PCC_BGATH_I_A|권한롤관리
+FRST_RGSN_YMD|5||Y|DATE|최초 등록일자|Yes|TB_PCC_BGATH_I_A|권한롤관리
+FRST_RGSN_EMNO|6||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGATH_I_A|권한롤관리
+LST_AMNN_YMD|7||Y|DATE|최종 수정일자|Yes|TB_PCC_BGATH_I_A|권한롤관리
+LAST_AMNN_EMNO|8||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGATH_I_A|권한롤관리
+FNFU_BLBR_DSCD|1|1|N|CHAR (6 Byte)|재정기금 게시판의 구분코드|Yes|TB_PCC_BGBRD_I_A|게시판관리
+FNFU_BULT_NO|2|2|N|NUMBER (10)|재정기금 게시판의 게시번호|Yes|TB_PCC_BGBRD_I_A|게시판관리
+BULT_TTL|3||Y|VARCHAR2 (200 Byte)|재정기금 게시판의 제목|Yes|TB_PCC_BGBRD_I_A|게시판관리
+BULT_CNTN|4||Y|VARCHAR2 (4000 Byte)|재정기금 게시판의 내용|Yes|TB_PCC_BGBRD_I_A|게시판관리
+WRTN_YMD|5||Y|DATE|재정기금에서 사용하는 작성일자|Yes|TB_PCC_BGBRD_I_A|게시판관리
+MKR_EMNO|6||Y|CHAR (6 Byte)|재정기금 내에서 작성한 사용자 ID|Yes|TB_PCC_BGBRD_I_A|게시판관리
+IQCN|7||Y|NUMBER (10)|조회 건수|Yes|TB_PCC_BGBRD_I_A|게시판관리
+FNFU_RLTD_BULT_NO|8||Y|NUMBER (10)|재정기금 관련 게시번호|Yes|TB_PCC_BGBRD_I_A|게시판관리
+LNP_SQNO|9||Y|NUMBER (3)|재정기금 내의 정렬순서번호|Yes|TB_PCC_BGBRD_I_A|게시판관리
+ITEM_LVL_NO|10||Y|NUMBER (2)|재정기금 내의 레벨|Yes|TB_PCC_BGBRD_I_A|게시판관리
+BULT_STTG_YMD|11||Y|DATE|게시 시작일자|Yes|TB_PCC_BGBRD_I_A|게시판관리
+BULT_FNSH_YMD|12||Y|DATE|게시 종료일자|Yes|TB_PCC_BGBRD_I_A|게시판관리
+FNFU_DCMN_DSCD|13||Y|CHAR (6 Byte)|재정기금의 문서 종류 코드|Yes|TB_PCC_BGBRD_I_A|게시판관리
+FNFU_EDTL_DSCD|14||Y|CHAR (6 Byte)|재정기금의 편집기 종류 코드|Yes|TB_PCC_BGBRD_I_A|게시판관리
+FRST_RGSN_YMD|15||Y|DATE|최초 등록일자|Yes|TB_PCC_BGBRD_I_A|게시판관리
+FRST_RGSN_EMNO|16||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGBRD_I_A|게시판관리
+LST_AMNN_YMD|17||Y|DATE|최종 수정일자|Yes|TB_PCC_BGBRD_I_A|게시판관리
+LAST_AMNN_EMNO|18||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGBRD_I_A|게시판관리
+FNFU_BRCD|1|1|N|CHAR (4 Byte)|재정기금에서 사용하는 부점코드|Yes|TB_PCC_BGBRN_I_O|부점관리
+KRN_BRNC_NM|2||Y|VARCHAR2 (24 Byte)|재정기금에서 사용하는 한글 부점명|Yes|TB_PCC_BGBRN_I_O|부점관리
+BRNC_ABNM_NM1|3||Y|VARCHAR2 (12 Byte)|재정기금에서 사용하는 한글 부점의 약칭명1|Yes|TB_PCC_BGBRN_I_O|부점관리
+BRNC_ABNM_NM2|4||Y|VARCHAR2 (8 Byte)|재정기금에서 사용하는 한글 부점의 약칭명2|Yes|TB_PCC_BGBRN_I_O|부점관리
+ENSN_BRNC_NM|5||Y|VARCHAR2 (24 Byte)|재정기금에서 사용하는 영문 부점명|Yes|TB_PCC_BGBRN_I_O|부점관리
+ZPCD|6||Y|CHAR (6 Byte)|우편번호|Yes|TB_PCC_BGBRN_I_O|부점관리
+BSC_ADRS|7||Y|VARCHAR2 (50 Byte)|기본주소|Yes|TB_PCC_BGBRN_I_O|부점관리
+DTL_ADRS|8||Y|VARCHAR2 (50 Byte)|상세주소|Yes|TB_PCC_BGBRN_I_O|부점관리
+BRNC_TLNO_AREA_CD|9||Y|CHAR (4 Byte)|부점 전화번호 지역코드|Yes|TB_PCC_BGBRN_I_O|부점관리
+BRNC_TLNO_TONO|10||Y|CHAR (4 Byte)|부점 전화번호 국번호|Yes|TB_PCC_BGBRN_I_O|부점관리
+BRNC_TLNO_SRNO|11||Y|CHAR (4 Byte)|부점 전화번호 일련번호|Yes|TB_PCC_BGBRN_I_O|부점관리
+FXNO_TONO|12||Y|CHAR (4 Byte)|팩스번호 국번호|Yes|TB_PCC_BGBRN_I_O|부점관리
+FXNO_SRNO|13||Y|CHAR (4 Byte)|팩스번호 일련번호|Yes|TB_PCC_BGBRN_I_O|부점관리
+FXNO_TON2|14||Y|CHAR (4 Byte)|팩스번호 국번2|Yes|TB_PCC_BGBRN_I_O|부점관리
+FXNO_SRNO2|15||Y|CHAR (4 Byte)|팩스번호 일련번호2|Yes|TB_PCC_BGBRN_I_O|부점관리
+FNFU_BRNC_STCD|16||Y|CHAR (1 Byte)|재정기금에서 사용하는 부점상태 코드|Yes|TB_PCC_BGBRN_I_O|부점관리
+FNFU_GICD|17||Y|CHAR (7 Byte)|재정기금에서 사용하는 지로 코드|Yes|TB_PCC_BGBRN_I_O|부점관리
+FNFU_BRNC_DSCD|18||Y|CHAR (1 Byte)|재정기금에서 사용하는 부점구분 코드|Yes|TB_PCC_BGBRN_I_O|부점관리
+FNFU_FX_BRNC_DSCD|19||Y|CHAR (1 Byte)|재정기금에서 사용하는 외환부점 구분 코드|Yes|TB_PCC_BGBRN_I_O|부점관리
+FNFU_FX_BRCD|20||Y|CHAR (4 Byte)|재정기금에서 사용하는 외환부점 코드|Yes|TB_PCC_BGBRN_I_O|부점관리
+PB_BRNC_YN|21||Y|CHAR (1 Byte)|재정기금에서 사용하는 PB부점 여부|Yes|TB_PCC_BGBRN_I_O|부점관리
+FNFU_PB_BRNC_DSCD|22||Y|CHAR (1 Byte)|재정기금에서 사용하는 PB부점 구분 코드|Yes|TB_PCC_BGBRN_I_O|부점관리
+SRM_BRNC_YN|23||Y|CHAR (1 Byte)|재정기금에서 사용하는 SRM부점 여부|Yes|TB_PCC_BGBRN_I_O|부점관리
+RM_BRNC_YN|24||Y|CHAR (1 Byte)|재정기금에서 사용하는 RM부점 여부|Yes|TB_PCC_BGBRN_I_O|부점관리
+INEL_MTBR_YN|25||Y|CHAR (1 Byte)|재정기금에서 사용하는 타행환모점 여부|Yes|TB_PCC_BGBRN_I_O|부점관리
+ONLN_NO|26||Y|CHAR (6 Byte)|재정기금에서 사용하는 온라인번호|Yes|TB_PCC_BGBRN_I_O|부점관리
+OPBR_YMD|27||Y|DATE|개점년월일|Yes|TB_PCC_BGBRN_I_O|부점관리
+CLSR_YMD|28||Y|DATE|폐쇄년월일|Yes|TB_PCC_BGBRN_I_O|부점관리
+FNFU_WBCSNO|29||Y|CHAR (10 Byte)|재정기금 관련 전행고객번호|Yes|TB_PCC_BGBRN_I_O|부점관리
+FNFU_BRNC_ROLE_CD|30||Y|CHAR (6 Byte)|재정기금에서 사용하는 부점역할 코드|Yes|TB_PCC_BGBRN_I_O|부점관리
+FRST_RGSN_YMD|31||Y|DATE|최초 등록일자|Yes|TB_PCC_BGBRN_I_O|부점관리
+FRST_RGSN_EMNO|32||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGBRN_I_O|부점관리
+LST_AMNN_YMD|33||Y|DATE|최종 수정일자|Yes|TB_PCC_BGBRN_I_O|부점관리
+LAST_AMNN_EMNO|34||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGBRN_I_O|부점관리
+FNFU_GRP_CD|1|1|N|CHAR (3 Byte)|재정기금 공통코드의 그룹코드 3자리|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+FNFU_DTL_CD|2|2|N|CHAR (3 Byte)|재정기금 공통코드의 그룹코드 중 상세코드 3자리|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+FNFU_FULL_CD|3||Y|CHAR (6 Byte)|재정기금 공통코드(재정기금그룹코드(3자리) + 재정기금상세코드(3자리))|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+CMN_CDNM|4||Y|VARCHAR2 (100 Byte)|재정기금내 공통으로 사용될 개별 코드값에 대한 명칭|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+USE_YN|5||Y|CHAR (1 Byte)|재정기금 내의 사용여부|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+APLY_YMD|6||Y|DATE|재정기금 공통코드의 적용일자|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+LNP_SQNO|7||Y|NUMBER (3)|재정기금 내의 정렬순서번호|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+FNFU_SPR_FLD_CNTN1|8||Y|VARCHAR2 (20 Byte)|재정기금 공통코드에 대해 예외적인 내용을 입력|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+FNFU_SPR_FLD_CNTN2|9||Y|VARCHAR2 (20 Byte)|재정기금 공통코드에 대해 예외적인 내용을 입력|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+RMK1|10||Y|VARCHAR2 (500 Byte)|재정기금에서 사용하는 일반적인 내용을 입력(500 Byte)|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+FRST_RGSN_YMD|11||Y|DATE|최초 등록일자|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+FRST_RGSN_EMNO|12||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+LST_AMNN_YMD|13||Y|DATE|최종 수정일자|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+LAST_AMNN_EMNO|14||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGCOD_C_A|공통코드관리
+FNFU_BLBR_DSCD|1|1|N|CHAR (6 Byte)|재정기금 게시판의 구분코드|Yes|TB_PCC_BGFLE_I_A|파일관리
+FNFU_BULT_NO|2|2|N|NUMBER (10)|재정기금 게시판의 게시번호|Yes|TB_PCC_BGFLE_I_A|파일관리
+FNFU_SRNO|3|3|N|NUMBER (9)|재정기금에서 사용하는 일련번호|Yes|TB_PCC_BGFLE_I_A|파일관리
+FNFU_ORGL_FILE_NM|4||Y|VARCHAR2 (250 Byte)|재정기금 게시판의 원래 첨부파일 명|Yes|TB_PCC_BGFLE_I_A|파일관리
+FNFU_SRVR_FILE_NM|5||Y|VARCHAR2 (250 Byte)|재정기금 게시판의 서버에 있는 첨부파일 명|Yes|TB_PCC_BGFLE_I_A|파일관리
+FNFU_FLSZ_QNTT|6||Y|NUMBER (10)|재정기금 게시판의 첨부파일의 크기|Yes|TB_PCC_BGFLE_I_A|파일관리
+FRST_RGSN_YMD|7||Y|DATE|최초 등록일자|Yes|TB_PCC_BGFLE_I_A|파일관리
+FRST_RGSN_EMNO|8||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGFLE_I_A|파일관리
+LST_AMNN_YMD|9||Y|DATE|최종 수정일자|Yes|TB_PCC_BGFLE_I_A|파일관리
+LAST_AMNN_EMNO|10||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGFLE_I_A|파일관리
+FNFU_PRRM_ID|1|1|N|CHAR (7 Byte)|재정기금에서 사용하는 각각의 거래를 식별하기위한 고유 코드값(영문4+숫자3)|Yes|TB_PCC_BGFNC_I_A|기능관리
+FNFU_FNCD|2|2|N|CHAR (2 Byte)|재정기금에서 사용하는 기능 코드|Yes|TB_PCC_BGFNC_I_A|기능관리
+FNFU_FNCT_NM|3||Y|VARCHAR2 (100 Byte)|재정기금에서 사용하는 기능 코드명|Yes|TB_PCC_BGFNC_I_A|기능관리
+USE_YN|4||Y|CHAR (1 Byte)|재정기금 내의 사용여부|Yes|TB_PCC_BGFNC_I_A|기능관리
+FRST_RGSN_YMD|5||Y|DATE|최초 등록일자|Yes|TB_PCC_BGFNC_I_A|기능관리
+FRST_RGSN_EMNO|6||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGFNC_I_A|기능관리
+LST_AMNN_YMD|7||Y|DATE|최종 수정일자|Yes|TB_PCC_BGFNC_I_A|기능관리
+LAST_AMNN_EMNO|8||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGFNC_I_A|기능관리
+FNFU_SBCD|1|1|N|CHAR (3 Byte)|재정기금시스템의 자금취급과목의 코드값|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+FNFU_POLC_CD|2|2|N|CHAR (4 Byte)|재정기금시스템 시책의 시책 코드값으로 업무를 구분한다.|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+FNFU_POLC_CLCD|3|3|N|CHAR (2 Byte)|재정기금시스템 시책의 코드값을 분류하는 시책분류코드. 시책으로 구분된 업무를 다시 세분화 하기위해 시책분류코드더 두어 처리함|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+APLY_SYMD|4|4|N|DATE|IBK인터페이스 정보를 실제업무에 적용(사용)할 일자|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+FNFU_SRNO|5|5|N|NUMBER (9)|재정기금에서 사용하는 일련번호|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+APLY_EYMD|6||Y|DATE|해당 IBK인터페이스 정보 업무적용을 종료하는 년월일|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+FNFU_FRTM_FERT|7||Y|"NUMBER (9,6)"|재정기금 수수료율 변경 전 수수료율|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+FNFU_APLY_FERT|8||Y|"NUMBER (9,6)"|재정기금 현재 적용 수수료율|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+CNCL_YN|9||Y|CHAR (1 Byte)|"취소여부,  코드값예시) N: N, Y: Y, N: N"|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+FRST_RGSN_YMD|10||Y|DATE|최초등록년월일|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+FRST_RGSN_EMNO|11||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+LST_AMNN_YMD|12||Y|DATE|최종등록년월일|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+LAST_AMNN_EMNO|13||Y|CHAR (6 Byte)|최종등록직원번호|Yes|TB_PCC_BGFRT_H_A|자금취급수수료율이력
+YMD|1|1|N|DATE|재정기금에서 사용하는 년월일의 날짜형태|Yes|TB_PCC_BGHLY_I_Y3|휴일관리
+FNFU_DWK_DSCD|2||Y|CHAR (1 Byte)|재정기금내 특정일자의 요일|Yes|TB_PCC_BGHLY_I_Y4|휴일관리
+HLDD_YN|3||Y|CHAR (1 Byte)|재정기금내 특정일자가 휴일인지의 여부|Yes|TB_PCC_BGHLY_I_Y5|휴일관리
+RMK1|4||Y|VARCHAR2 (500 Byte)|재정기금에서 사용하는 일반적인 내용을 입력(500 Byte)|Yes|TB_PCC_BGHLY_I_Y6|휴일관리
+FRST_RGSN_YMD|5||Y|DATE|최초 등록일자|Yes|TB_PCC_BGHLY_I_Y7|휴일관리
+FRST_RGSN_EMNO|6||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGHLY_I_Y8|휴일관리
+LST_AMNN_YMD|7||Y|DATE|최종 수정일자|Yes|TB_PCC_BGHLY_I_Y9|휴일관리
+LAST_AMNN_EMNO|8||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGHLY_I_Y10|휴일관리
+FNNL_FUND_BRNG_NO|1|1|N|CHAR (12 Byte)|재정기금차입번호|Yes|TB_PCC_BGIRP_L_O|차입이자상환계획
+TMBT|2|2|N|NUMBER (3)|회차|Yes|TB_PCC_BGIRP_L_O|차입이자상환계획
+SCDL_RPMN_YMD|3||Y|DATE|예정상환년월일|Yes|TB_PCC_BGIRP_L_O|차입이자상환계획
+REAL_RPMN_YMD|4||Y|DATE|실상환년월일|Yes|TB_PCC_BGIRP_L_O|차입이자상환계획
+REAL_RPMN_INTS_AMT|5||Y|"NUMBER (18,3)"|실상환이자금액|Yes|TB_PCC_BGIRP_L_O|차입이자상환계획
+FRST_RGSN_YMD|6||Y|DATE|최초등록년월일|Yes|TB_PCC_BGIRP_L_O|차입이자상환계획
+FRST_RGSN_EMNO|7||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGIRP_L_O|차입이자상환계획
+LST_AMNN_YMD|8||Y|DATE|최종수정년월일|Yes|TB_PCC_BGIRP_L_O|차입이자상환계획
+LAST_AMNN_EMNO|9||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGIRP_L_O|차입이자상환계획
+TRNS_YMD|1|1|N|DATE|재정기금관련 거래의 등록일자 년월일|Yes|TB_PCC_BGITA_M_A|ITA파일원장
+FNFU_BULT_NO|2|2|N|NUMBER (10)|"재정기금 internet서버를 통해 발급되는 잔액증명서의 년도,기관코드,순번에 대한 처리 일련번호"|Yes|TB_PCC_BGITA_M_A|ITA파일원장
+EMPL_NM|3||Y|VARCHAR2 (20 Byte)|재정기금에서 사용하는 직원명|Yes|TB_PCC_BGITA_M_A|ITA파일원장
+FNFU_HDLN_CNTN|4||Y|VARCHAR2 (100 Byte)|재정기금 정보통신부관련 일괄처리를 위한 업로드파일의 작업내용 기재|Yes|TB_PCC_BGITA_M_A|ITA파일원장
+FNFU_RMCT|5||Y|VARCHAR2 (4000 Byte)|"재정기금에서 사용하는 일반적인 내용을 입력(4,000 Byte)"|Yes|TB_PCC_BGITA_M_A|ITA파일원장
+FNFU_FILE_PHNM|6||Y|VARCHAR2 (150 Byte)|재정기금에서 등록된 실무가이드 파일경로|Yes|TB_PCC_BGITA_M_A|ITA파일원장
+FNFU_ORGL_FILE_NM|7||Y|VARCHAR2 (250 Byte)||Yes|TB_PCC_BGITA_M_A|ITA파일원장
+FNFU_FILE_DSCD|8||Y|CHAR (1 Byte)|"재정기금 정보통신부관련 일괄처리를 위해 업로드된 파일의 성격 1:추천서,2:기한전상환,3:대여내역"|Yes|TB_PCC_BGITA_M_A|ITA파일원장
+PCSN_YN|9||Y|CHAR (1 Byte)|재정기금시스템에서 차입정기상환내역이 실제로 처리가 되었는지의 여부를 위한 구분자|Yes|TB_PCC_BGITA_M_A|ITA파일원장
+FRST_RGSN_YMD|10||Y|DATE||Yes|TB_PCC_BGITA_M_A|ITA파일원장
+FRST_RGSN_EMNO|11||Y|CHAR (6 Byte)||Yes|TB_PCC_BGITA_M_A|ITA파일원장
+LST_AMNN_YMD|12||Y|DATE||Yes|TB_PCC_BGITA_M_A|ITA파일원장
+LAST_AMNN_EMNO|13||Y|CHAR (6 Byte)||Yes|TB_PCC_BGITA_M_A|ITA파일원장
+FNFU_ISCD|1|1|N|CHAR (4 Byte)|재정기금관련 외부기관 또는 타행의 기관코드(4자리)|Yes|TB_PCC_BGITT_M_O|기관관리
+INTT_NM|2||Y|VARCHAR2 (50 Byte)|재정기금 관련 기관 또는 타행명|Yes|TB_PCC_BGITT_M_O|기관관리
+CRNO|3||Y|CHAR (13 Byte)|법인등록번호|Yes|TB_PCC_BGITT_M_O|기관관리
+BRNO|4||Y|CHAR (10 Byte)|사업자등록번호|Yes|TB_PCC_BGITT_M_O|기관관리
+BRNG_INTT_YN|5||Y|CHAR (1 Byte)|재정기금 관련 차입기관 여부|Yes|TB_PCC_BGITT_M_O|기관관리
+LNDN_INTT_YN|6||Y|CHAR (1 Byte)|재정기금관련 대여기관 여부|Yes|TB_PCC_BGITT_M_O|기관관리
+RCMD_INTT_YN|7||Y|CHAR (1 Byte)|재정기금 관련 추천기관 여부|Yes|TB_PCC_BGITT_M_O|기관관리
+PMTG_INTT_YN|8||Y|CHAR (1 Byte)|재정기금 관련 조성기관 여부|Yes|TB_PCC_BGITT_M_O|기관관리
+ENTM_INTT_YN|9||Y|CHAR (1 Byte)|재정기금 관련 위탁기관 여부|Yes|TB_PCC_BGITT_M_O|기관관리
+HNDL_INTT_YN|10||Y|CHAR (1 Byte)||Yes|TB_PCC_BGITT_M_O|기관관리
+FNFU_BRRNO|11||Y|CHAR (10 Byte)|"재정기금관련 기관,타행의 차주번호"|Yes|TB_PCC_BGITT_M_O|기관관리
+FNFU_WBCSNO|12||Y|CHAR (10 Byte)|재정기금 관련 전행고객번호|Yes|TB_PCC_BGITT_M_O|기관관리
+ZPCD|13||Y|CHAR (6 Byte)|우편번호|Yes|TB_PCC_BGITT_M_O|기관관리
+BSC_ADRS|14||Y|VARCHAR2 (50 Byte)|기본주소|Yes|TB_PCC_BGITT_M_O|기관관리
+DTL_ADRS|15||Y|VARCHAR2 (50 Byte)|상세주소|Yes|TB_PCC_BGITT_M_O|기관관리
+RSPR|16||Y|VARCHAR2 (20 Byte)|"재정기금관련 기관, 타행의 담당자"|Yes|TB_PCC_BGITT_M_O|기관관리
+BLNG_NM|17||Y|VARCHAR2 (40 Byte)|소속명|Yes|TB_PCC_BGITT_M_O|기관관리
+FNFU_TLNO|18||Y|CHAR (20 Byte)|재정기금 추천받은 업체의 전화번호|Yes|TB_PCC_BGITT_M_O|기관관리
+FXNO|19||Y|CHAR (20 Byte)|팩스번호|Yes|TB_PCC_BGITT_M_O|기관관리
+EML_ADRS|20||Y|VARCHAR2 (50 Byte)|E-Mail|Yes|TB_PCC_BGITT_M_O|기관관리
+RISK_WGHT_RT|21||Y|"NUMBER (14,8)"|재정기금 내 위험 가중치율|Yes|TB_PCC_BGITT_M_O|기관관리
+INTT_ANM|22||Y|VARCHAR2 (200 Byte)||Yes|TB_PCC_BGITT_M_O|기관관리
+FRST_RGSN_YMD|23||Y|DATE|최초 등록일자|Yes|TB_PCC_BGITT_M_O|기관관리
+FRST_RGSN_EMNO|24||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGITT_M_O|기관관리
+LST_AMNN_YMD|25||Y|DATE|최종 수정일자|Yes|TB_PCC_BGITT_M_O|기관관리
+LAST_AMNN_EMNO|26||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGITT_M_O|기관관리
+DMYMD|1|1|N|DATE|재정기금내 원장 수정을 요청받은 일자|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+FNFU_SRNO|2|2|N|NUMBER (9)|재정기금에서 사용하는 일련번호|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+FNFU_DMND_BRCD|3||Y|CHAR (4 Byte)|재정기금내 원장수정을 요청받은 업무부서|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+DMND_EMNO|4||Y|CHAR (6 Byte)|재정기금내 원장수정을 요청받은 업무담당자|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+FNFU_TRGT_TBL_NM|5||Y|VARCHAR2 (300 Byte)|재정기금내 원장 수정 진행 시 변경되는 대상 테이블명|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+FNFU_BFMD_CNTN|6||Y|VARCHAR2 (300 Byte)|재정기금내 원장 수정 진행 시 변경 전 상세내용|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+FNFU_AFMD_CNTN|7||Y|VARCHAR2 (300 Byte)|재정기금내 원장 수정 진행 시 변경 후 상세내용|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+FNFU_MDFC_RSCN|8||Y|VARCHAR2 (200 Byte)|재정기금내 원장 수정 진행 시 변경 사유|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+PCSN_EMNO|9||Y|CHAR (6 Byte)|재정기금내 원장 수정 작업을 작업한 담당자 ID|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+PCSN_YMD|10||Y|DATE|재정기금내 작업일자|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+FNFU_JOB_CNTN|11||Y|VARCHAR2 (4000 Byte)|재정기금내 원장 수정 진행 시 작업의 내용|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+FRST_RGSN_YMD|12||Y|DATE|최초 등록일자|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+FRST_RGSN_EMNO|13||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+LST_AMNN_YMD|14||Y|DATE|최종 수정일자|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+LAST_AMNN_EMNO|15||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGLDG_L_A|원장수정내역관리
+FNNL_FUND_BRNG_NO|1|1|N|CHAR (12 Byte)|재정기금차입번호|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_SBCD|2||Y|CHAR (3 Byte)|재정기금과목코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_YEAR|3||Y|CHAR (4 Byte)|재정기금년|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_BRNG_SRNO|4||Y|CHAR (5 Byte)|재정기금차입일련번호|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_POLC_CD|5||Y|CHAR (4 Byte)|재정기금시책코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_POLC_CLCD|6||Y|CHAR (2 Byte)|재정기금시책분류코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_SGSH_NO|7||Y|CHAR (12 Byte)|재정기금추천서번호|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+EXCN_YMD|8||Y|DATE|실행년월일|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+EXYMD|9||Y|DATE|만기년월일|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+BRNG_FMCD|10||Y|CHAR (6 Byte)|차입형태코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+BRNG_EXCN_AMT|11||Y|"NUMBER (18,3)"|차입실행금액|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+BRNG_EXCN_BLNC|12||Y|"NUMBER (18,3)"|차입실행잔액|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+BRNG_ALLAMT|13||Y|"NUMBER (18,3)"|차입배정금액|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+BRNG_ALCT_BLNC|14||Y|"NUMBER (18,3)"|차입배정잔액|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+DFRM_TERM|15||Y|NUMBER (5)|거치기간|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+RPMN_TERM|16||Y|NUMBER (5)|상환기간|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+INPM_RPCL_DSCD|17||Y|CHAR (6 Byte)|할부금상환주기구분코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+INPM_RPCL_CD|18||Y|CHAR (6 Byte)|할부금상환주기코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+INPM_RPDA_CD|19||Y|CHAR (6 Byte)|할부금상환일자코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_IRQR_MMDD1|20||Y|CHAR (4 Byte)|재정기금할부상환분기월일1|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_IRQR_MMDD2|21||Y|CHAR (4 Byte)|재정기금할부상환분기월일2|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_IRQR_MMDD3|22||Y|CHAR (4 Byte)|재정기금할부상환분기월일3|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_IRQR_MMDD4|23||Y|CHAR (4 Byte)|재정기금할부상환분기월일4|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+INRP_CYCL_DSCD|24||Y|CHAR (6 Byte)|이자상환주기구분코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+INRP_CYCD|25||Y|CHAR (6 Byte)|이자상환주기코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+INTS_RPDA_CD|26||Y|CHAR (6 Byte)|이자상환일자코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_IRQT_MMDD1|27||Y|CHAR (4 Byte)|재정기금이자상환분기월일1|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_IRQT_MMDD2|28||Y|CHAR (4 Byte)|재정기금이자상환분기월일2|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_IRQT_MMDD3|29||Y|CHAR (4 Byte)|재정기금이자상환분기월일3|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_IRQT_MMDD4|30||Y|CHAR (4 Byte)|재정기금이자상환분기월일4|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+LST_INTS_IPRT_YMD|31||Y|DATE|최종이자수입년월일|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FRST_ISRP_YMD|32||Y|DATE|최초할부상환년월일|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+NRMT_RPMN_ISAMT|33||Y|"NUMBER (18,3)"|정상상환할부금액|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+NRMT_RPMN_INTS_AMT|34||Y|"NUMBER (18,3)"|정상상환이자금액|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+INRY_ISAMT|35||Y|"NUMBER (18,3)"|불능상환할부금액|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+INRY_INTS_AMT|36||Y|"NUMBER (18,3)"|불능상환이자금액|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+RSTR_RPMN_ISAMT|37||Y|"NUMBER (18,3)"|제재상환할부금액|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+RSTR_RPMN_INTS_AMT|38||Y|"NUMBER (18,3)"|제재상환이자금액|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_BRNG_ISCD|39||Y|CHAR (4 Byte)|재정기금차입기관코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+HNDL_MBCD|40||Y|CHAR (4 Byte)|취급모점코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_CSNO|41||Y|CHAR (10 Byte)|재정기금고객번호|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_FNUS_CD|42||Y|CHAR (6 Byte)|재정기금자금용도코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FNFU_BRNG_LDST_CD|43||Y|CHAR (6 Byte)|재정기금차입원장상태코드|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FRST_RGSN_YMD|44||Y|DATE|최초등록년월일|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+FRST_RGSN_EMNO|45||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+LST_AMNN_YMD|46||Y|DATE|최종수정년월일|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+LAST_AMNN_EMNO|47||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGLDG_M_O|차입실행원장
+TRMS_YMD|1|1|N|DATE|전송년월일|Yes|TB_PCC_BGMSG_D_A|메시지전송상세내역
+SRNO|2|2|N|NUMBER (7)|일련번호|Yes|TB_PCC_BGMSG_D_A|메시지전송상세내역
+RCV_EMNO|3|3|N|CHAR (6 Byte)|수신자직원번호|Yes|TB_PCC_BGMSG_D_A|메시지전송상세내역
+IP_ADRS|4||Y|VARCHAR2 (100 Byte)|IP주소|Yes|TB_PCC_BGMSG_D_A|메시지전송상세내역
+CNFR_YMD|5||Y|DATE|확인년월일|Yes|TB_PCC_BGMSG_D_A|메시지전송상세내역
+FRST_RGSN_YMD|6||Y|DATE|최초등록년월일|Yes|TB_PCC_BGMSG_D_A|메시지전송상세내역
+FRST_RGSN_EMNO|7||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGMSG_D_A|메시지전송상세내역
+LST_AMNN_YMD|8||Y|DATE|최종수정년월일|Yes|TB_PCC_BGMSG_D_A|메시지전송상세내역
+LAST_AMNN_EMNO|9||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGMSG_D_A|메시지전송상세내역
+TRMS_YMD|1|1|N|DATE|전송년월일|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+SRNO|2|2|N|NUMBER (7)|일련번호|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+MSG_CD|3||Y|CHAR (6 Byte)|메시지코드|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+BRCD|4||Y|CHAR (4 Byte)|부점코드|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+ENTP_NM|5||Y|VARCHAR2 (40 Byte)|업체명|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+AMT|6||Y|"NUMBER (18,3)"|금액|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+FNFU_FNUS_CD|7||Y|CHAR (6 Byte)|재정기금자금용도코드|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+FNFU_SGSH_NO|8||Y|CHAR (12 Byte)|재정기금추천서번호|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+FNFU_SPR_FLD_CNTN1|9||Y|VARCHAR2 (20 Byte)|재정기금예비필드내용1|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+FNFU_SPR_FLD_CNTN2|10||Y|VARCHAR2 (20 Byte)|재정기금예비필드내용2|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+RMK1|11||Y|VARCHAR2 (500 Byte)|비고1|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+FRST_RGSN_YMD|12||Y|DATE|최초등록년월일|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+FRST_RGSN_EMNO|13||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+LST_AMNN_YMD|14||Y|DATE|최종수정년월일|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+LAST_AMNN_EMNO|15||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGMSG_M_A|메시지전송내역
+FNFU_SBCD|1|1|N|CHAR (3 Byte)|재정기금시스템의 자금취급과목의 코드값|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+FNFU_POLC_CD|2|2|N|CHAR (4 Byte)|재정기금시스템 시책의 시책 코드값으로 업무를 구분한다.|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+FNFU_POLC_CLCD|3|3|N|CHAR (2 Byte)|재정기금시스템 시책의 코드값을 분류하는 시책분류코드. 시책으로 구분된 업무를 다시 세분화 하기위해 시책분류코드더 두어 처리함|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+APLY_SYMD|4|4|N|DATE|재정기금 연체이율을 적용할 시작일자 년월일|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+FNFU_SRNO|5|5|N|NUMBER (9)|재정기금에서 사용하는 일련번호|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+APLY_EYMD|6||Y|DATE|해당 IBK인터페이스 정보 업무적용을 종료하는 년월일|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+FNFU_FRTM_BRIT|7||Y|"NUMBER (9,6)"|재정기금 차입이율 변경 전 이율|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+FNFU_FRTM_LNIR|8||Y|"NUMBER (9,6)"|재정기금 대출이율 변경 전 이율|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+FNFU_APLY_BRIT|9||Y|"NUMBER (9,6)"|재정기금 현재 적용 차입이율|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+FNFU_APLY_LNIR|10||Y|"NUMBER (9,6)"|재정기금 현재 적용 대출이율|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+CNCL_YN|11||Y|CHAR (1 Byte)|"취소여부,  코드값예시) N: N, Y: Y, N: N"|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+FRST_RGSN_YMD|12||Y|DATE|최초등록년월일|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+FRST_RGSN_EMNO|13||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+LST_AMNN_YMD|14||Y|DATE|최종 수정일자|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+LAST_AMNN_EMNO|15||Y|CHAR (6 Byte)|재정기금 가장 마지막으로 해당 업무를 진행한 사용자 ID|Yes|TB_PCC_BGPCR_I_A|시책이율이력
+APLC_BRCD|1|1|N|CHAR (4 Byte)|신청부점코드|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+APLC_YMD|2|2|N|DATE|신청년월일|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+APLC_SRNO|3|3|N|NUMBER (5)|신청일련번호|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+LOAN_ACNO|4||Y|CHAR (16 Byte)|대출계좌번호|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+ICNO|5||Y|CHAR (15 Byte)|내부계약번호|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+INPM_GRCE_DSCD|6||Y|CHAR (6 Byte)|할부금유예구분코드|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+HNDL_MBCD|7||Y|CHAR (4 Byte)|취급모점코드|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+INPM_GRAL_STCD|8||Y|CHAR (6 Byte)|할부금유예신청상태코드|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+APLC_EMNO|9||Y|CHAR (6 Byte)|신청직원번호|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+CNCL_YN|10||Y|CHAR (1 Byte)|취소여부|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+CNCL_YMD|11||Y|DATE|취소년월일|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+MEMO_CNTN|12||Y|VARCHAR2 (1000 Byte)|메모내용|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+ATHZ_EMNO|13||Y|CHAR (6 Byte)|승인직원번호|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+ATHZ_YMD|14||Y|DATE|승인년월일|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+FNFU_RTRC_RSCN|15||Y|VARCHAR2 (1000 Byte)|재정기금반려사유내용|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+FRST_RGSN_YMD|16||Y|DATE|최초등록년월일|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+FRST_RGSN_EMNO|17||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+LST_AMNN_YMD|18||Y|DATE|최종수정년월일|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+LAST_AMNN_EMNO|19||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGPGA_M_O|할부금유예신청
+APLC_BRCD|1|1|N|CHAR (4 Byte)|신청부점코드|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+APLC_YMD|2|2|N|DATE|신청년월일|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+APLC_SRNO|3|3|N|NUMBER (5)|신청일련번호|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+SRNO|4|4|N|NUMBER (7)|일련번호|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+FNNL_FUND_BRNG_NO|5||Y|CHAR (12 Byte)|재정기금차입번호|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+FNFU_TRSRNO|6||Y|CHAR (3 Byte)|재정기금거래일련번호|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+TGYN|7||Y|CHAR (1 Byte)||Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+PCSN_YN|8||Y|CHAR (1 Byte)|처리여부|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+PCSN_EMNO|9||Y|CHAR (6 Byte)|처리직원번호|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+PCSN_YMD|10||Y|DATE|처리년월일|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+CNCL_YN|11||Y|CHAR (1 Byte)|취소여부|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+CNCL_YMD|12||Y|DATE|취소년월일|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+FRST_RGSN_YMD|13||Y|DATE|최초등록년월일|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+FRST_RGSN_EMNO|14||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+LST_AMNN_YMD|15||Y|DATE|최종수정년월일|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+LAST_AMNN_EMNO|16||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGPGO_L_O|할부금유예처리대상내역
+FNFU_SBCD|1|1|N|CHAR (3 Byte)|재정기금시스템의 자금취급과목의 코드값|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_POLC_CD|2|2|N|CHAR (4 Byte)|재정기금시스템 시책의 시책 코드값으로 업무를 구분한다.|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_POLC_CLCD|3|3|N|CHAR (2 Byte)|재정기금시스템 시책의 코드값을 분류하는 시책분류코드. 시책으로 구분된 업무를 다시 세분화 하기위해 시책분류코드더 두어 처리함|Yes|TB_PCC_BGPLC_M_A|시책
+POLC_NM|4||Y|VARCHAR2 (50 Byte)||Yes|TB_PCC_BGPLC_M_A|시책
+POLC_CLSF_NM|5||Y|VARCHAR2 (30 Byte)|시책을 세분화하는 시책분류에 대한 한글명|Yes|TB_PCC_BGPLC_M_A|시책
+HNDL_MBCD|6||Y|CHAR (4 Byte)|시책을 등록/담당하는 모점코드|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_BRNG_ISCD|7||Y|CHAR (4 Byte)|재정기금내의 차입기관 기관코드|Yes|TB_PCC_BGPLC_M_A|시책
+BRNG_RTO|8||Y|"NUMBER (9,6)"|총액한도대상상품중적용되는차입이자율|Yes|TB_PCC_BGPLC_M_A|시책
+RPMN_RTO|9||Y|"NUMBER (9,6)"|상환비율|Yes|TB_PCC_BGPLC_M_A|시책
+BRNG_FNDS_RTO|10||Y|"NUMBER (9,6)"|차입금 전체 금액 중 차입자금이 차지하는 비율|Yes|TB_PCC_BGPLC_M_A|시책
+ONBN_FNDS_RTO|11||Y|"NUMBER (9,6)"|차입금 전체 금액 중 당행자금이 차지하는 비율|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_RPMN_WAY_DSCD|12||Y|CHAR (6 Byte)|"재정기금 차입, 대여, 위탁금에 대한 상환방법을 구분하는 코드"|Yes|TB_PCC_BGPLC_M_A|시책
+PRNC_EQL_RPMN_RTO|13||Y|"NUMBER (9,6)"|상환대상 금액 중 원금균등방법으로 상환하는 금액의 비율|Yes|TB_PCC_BGPLC_M_A|시책
+EXPI_DTTM_RPMN_RTO|14||Y|"NUMBER (9,6)"|상환대상 금액 중 만기일시방법으로 상환하는 금액의 비율|Yes|TB_PCC_BGPLC_M_A|시책
+INPM_INCL_DSCD|15||Y|CHAR (6 Byte)|할부금 단수처리 후 나머지 금액에 대한 산입을 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+RPPL_WPIT_DSCD|16||Y|CHAR (6 Byte)|차입 실행 후 할부금 상환계획 작성시 시작시점을 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+ICDNC_INCL_DSCD|17||Y|CHAR (6 Byte)|이자계산시 이자일수 산입을 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_INCC_WACD|18||Y|CHAR (6 Byte)|재정기금 이자계산방법을 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+INCC_RPMN_DAY_INYN|19||Y|CHAR (1 Byte)|이자계산시 상환일을 포함하는지 여부를 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+INCC_HLLS_DSCD|20||Y|CHAR (6 Byte)|이자계산시 응당일이 휴일일 경우 휴일포함 계산을 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+PRTT_EXCN_INCC_CD|21||Y|CHAR (6 Byte)|분할실행건에 대해 이자계산방법을 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+ENYR_BASE_STAC_YN|22||Y|CHAR (1 Byte)|연말상환시 연말기준(12월31일) 결산 여부를 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+ENYR_PYMN_DSCD|23||Y|CHAR (6 Byte)|연말상환시 연말기준(12월31일) 납입구분(선납/후납)을 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+ENYR_INPI_DSCD|24||Y|CHAR (6 Byte)|연말결산시 할부금 이자계산종료일을 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_DRDF_TERM|25||Y|NUMBER (3)|재정기금의 운전자금의 상환시 거치기간|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_DRRP_TERM|26||Y|NUMBER (3)|재정기금의 운전자금의 거치기간 이후의 상환기간|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_FCDF_TERM|27||Y|NUMBER (3)|재정기금의 시설자금의 상환시 거치기간|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_FCRP_TERM|28||Y|NUMBER (3)|재정기금의 시설자금의 거치기간 이후의 상환기간|Yes|TB_PCC_BGPLC_M_A|시책
+INPM_FRAM_UNCD|29||Y|CHAR (6 Byte)|할부금 단수단위를 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+INPM_RPCL_DSCD|30||Y|CHAR (6 Byte)|할부금 상환주기를 구분하는 코드(매월/분기)|Yes|TB_PCC_BGPLC_M_A|시책
+INPM_RPCL_CD|31||Y|CHAR (6 Byte)|할부금 상환주기구분이 매월인 경우 상환주기를 나타내는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+INPM_RPDA_CD|32||Y|CHAR (6 Byte)|할부금 상환주기구분이 매월인 경우 상환일자를 나타내는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_IRQR_MMDD1|33||Y|CHAR (4 Byte)|재정기금원금을 원금균등분할로 분기로 나누어 상환을 할경우 상환분기일 1/4회차|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_IRQR_MMDD2|34||Y|CHAR (4 Byte)|재정기금원금을 원금균등분할로 분기로 나누어 상환을 할경우 상환분기일 2/4회차|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_IRQR_MMDD3|35||Y|CHAR (4 Byte)|재정기금원금을 원금균등분할로 분기로 나누어 상환을 할경우 상환분기일 3/4회차|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_IRQR_MMDD4|36||Y|CHAR (4 Byte)|재정기금원금을 원금균등분할로 분기로 나누어 상환을 할경우 상환분기일 4/4회차|Yes|TB_PCC_BGPLC_M_A|시책
+INTS_FRAM_PCCD|37||Y|CHAR (6 Byte)|"이자단수처리를 적용할 구분을 나타내는 코드(통합단수처리, 개별단수처리)"|Yes|TB_PCC_BGPLC_M_A|시책
+INTS_FRAM_UNCD|38||Y|CHAR (6 Byte)|이자 단수단위를 구분하는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+INRP_CYCL_DSCD|39||Y|CHAR (6 Byte)|이자 상환주기를 구분하는 코드(매월/분기)|Yes|TB_PCC_BGPLC_M_A|시책
+INRP_CYCD|40||Y|CHAR (6 Byte)|이자 상환주기구분이 매월인 경우 상환주기를 나타내는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+INTS_RPDA_CD|41||Y|CHAR (6 Byte)|이자 상환주기구분이 매월인 경우 상환일자를 나타내는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_IRQT_MMDD1|42||Y|CHAR (4 Byte)|재정기금이자를 분기기준으로 상환을 할경우 이자상환분기일 1/4회차|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_IRQT_MMDD2|43||Y|CHAR (4 Byte)|재정기금이자를 분기기준으로 상환을 할경우 이자상환분기일 2/4회차|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_IRQT_MMDD3|44||Y|CHAR (4 Byte)|재정기금이자를 분기기준으로 상환을 할경우 이자상환분기일3/4회차|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_IRQT_MMDD4|45||Y|CHAR (4 Byte)|재정기금이자를 분기기준으로 상환을 할경우 이자상환분기일 4/4회차|Yes|TB_PCC_BGPLC_M_A|시책
+BFRP_WACD|46||Y|CHAR (6 Byte)|"기한전상환시 처리방법을 나타내는 코드(순차, 역순차, 익년순차)"|Yes|TB_PCC_BGPLC_M_A|시책
+BFRP_PLAN_RCRT_YN|47||Y|CHAR (1 Byte)|상환계획 재작성 여부를 나타내는 코드|Yes|TB_PCC_BGPLC_M_A|시책
+INRY_PLAN_RCRT_YN|48||Y|CHAR (1 Byte)|불능상환계획재생성여부|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_LODR_ATCD|49||Y|CHAR (6 Byte)|재정기금대출 운전계정코드(차세대이전의 계정코드)|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_LOFC_ATCD|50||Y|CHAR (6 Byte)|재정기금대출 시설계정코드(차세대이전의 계정코드)|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_LODR_POLC_CD|51||Y|CHAR (3 Byte)|재정기금대출 운전시책코드(차세대이전의 시책코드)|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_LOFC_POLC_CD|52||Y|CHAR (3 Byte)|재정기금대출 시설시책코드(차세대이전의 시책코드)|Yes|TB_PCC_BGPLC_M_A|시책
+WRFN_ATCD|53||Y|CHAR (10 Byte)|대출되는 운전자금의 B/S 계정코드(차세대시스템이후)|Yes|TB_PCC_BGPLC_M_A|시책
+FCFN_ATCD|54||Y|CHAR (10 Byte)|대출되는 시설자금의 B/S 계정코드(차세대시스템이후)|Yes|TB_PCC_BGPLC_M_A|시책
+WRFN_LINE_CD|55||Y|CHAR (2 Byte)|품의에서 사용되는 라인코드|Yes|TB_PCC_BGPLC_M_A|시책
+WRFN_GRP_CD|56||Y|CHAR (2 Byte)|품의에서 사용되는 상품그룹코드|Yes|TB_PCC_BGPLC_M_A|시책
+WRFN_TMPL_CD|57||Y|CHAR (3 Byte)|품의에서 사용되는 상품템플릿코드|Yes|TB_PCC_BGPLC_M_A|시책
+WRFN_PRDC_CD|58||Y|CHAR (3 Byte)|품의에서 사용되는 대출운전상품코드|Yes|TB_PCC_BGPLC_M_A|시책
+WRFN_INTL_CD|59||Y|CHAR (3 Byte)|품의에서 사용되는 내부코드(운전자금)|Yes|TB_PCC_BGPLC_M_A|시책
+FCFN_LINE_CD|60||Y|CHAR (2 Byte)|품의에서 사용되는 라인코드|Yes|TB_PCC_BGPLC_M_A|시책
+FCFN_GRP_CD|61||Y|CHAR (2 Byte)|품의에서 사용되는 상품그룹코드|Yes|TB_PCC_BGPLC_M_A|시책
+FCFN_TMPL_CD|62||Y|CHAR (3 Byte)|품의에서 사용되는 상품템플릿코드|Yes|TB_PCC_BGPLC_M_A|시책
+FCFN_PRDC_CD|63||Y|CHAR (3 Byte)|품의에서 사용되는 대출운전상품코드|Yes|TB_PCC_BGPLC_M_A|시책
+FCFN_INTL_CD|64||Y|CHAR (3 Byte)|품의에서 사용되는 내부코드(시설자금)|Yes|TB_PCC_BGPLC_M_A|시책
+JRNL_DLN_DDNC|65||Y|NUMBER (3)|책임자한도승인 후 기표해야하는 기한일 수|Yes|TB_PCC_BGPLC_M_A|시책
+JRNL_DLN_DDNC_DSCD|66||Y|CHAR (6 Byte)|기표기한일수의 구분을 나타내는 코드(영업일/일)|Yes|TB_PCC_BGPLC_M_A|시책
+WTCNS_BILN_DDNC|67||Y|NUMBER (3)|대출만기일과 차입만기일이 다를 경우 동의서를 징구해야 하는 최소일수|Yes|TB_PCC_BGPLC_M_A|시책
+APLY_SYMD|68||Y|DATE|IBK인터페이스 정보를 실제업무에 적용(사용)할 일자|Yes|TB_PCC_BGPLC_M_A|시책
+APLY_EYMD|69||Y|DATE|해당 IBK인터페이스 정보 업무적용을 종료하는 년월일|Yes|TB_PCC_BGPLC_M_A|시책
+USE_YN|70||Y|CHAR (1 Byte)|"사용여부,  코드값"|Yes|TB_PCC_BGPLC_M_A|시책
+FRUS_YN|71||Y|CHAR (1 Byte)|주로 사용하는지 여부|Yes|TB_PCC_BGPLC_M_A|시책
+BFRP_IMDT_YN|72||Y|CHAR (1 Byte)|기한전상환시 기관에 즉시 상환해야 하는지 여부|Yes|TB_PCC_BGPLC_M_A|시책
+RGIR_IMDT_YN|73||Y|CHAR (1 Byte)|정기상환시 기관에 즉시 상환해야 하는지 여부|Yes|TB_PCC_BGPLC_M_A|시책
+CNCL_YN|74||Y|CHAR (1 Byte)|"취소여부,  코드값"|Yes|TB_PCC_BGPLC_M_A|시책
+RMK3|75||Y|VARCHAR2 (500 Byte)|비고3|Yes|TB_PCC_BGPLC_M_A|시책
+FRST_RGSN_YMD|76||Y|DATE|최초등록년월일|Yes|TB_PCC_BGPLC_M_A|시책
+FRST_RGSN_EMNO|77||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGPLC_M_A|시책
+LST_AMNN_YMD|78||Y|DATE|최종등록년월일|Yes|TB_PCC_BGPLC_M_A|시책
+LAST_AMNN_EMNO|79||Y|CHAR (6 Byte)|최종등록직원번호|Yes|TB_PCC_BGPLC_M_A|시책
+FNFU_SBCD|1|1|N|CHAR (3 Byte)|재정기금시스템의 자금취급과목의 코드값|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+FNFU_POLC_CD|2|2|N|CHAR (4 Byte)|재정기금시스템 시책의 시책 코드값으로 업무를 구분한다.|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+FNFU_POLC_CLCD|3|3|N|CHAR (2 Byte)|재정기금시스템 시책의 코드값을 분류하는 시책분류코드. 시책으로 구분된 업무를 다시 세분화 하기위해 시책분류코드더 두어 처리함|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+FNFU_SRNO|4|4|N|NUMBER (9)|재정기금에서 사용하는 일련번호|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+APLY_SYMD|5||Y|DATE|재정기금관련 내역의 등록일자 년월일|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+APLY_EYMD|6||Y|DATE|해당 IBK인터페이스 정보 업무적용을 종료하는 년월일|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+LMAL_RSCN|7||Y|VARCHAR2 (2000 Byte)|한도신청을 제한하는 사유|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+CNCL_YN|8||Y|CHAR (1 Byte)|"취소여부,  코드값예시) N: N, Y: Y, N: N"|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+FRST_RGSN_YMD|9||Y|DATE|최초등록년월일|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+FRST_RGSN_EMNO|10||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+LST_AMNN_YMD|11||Y|DATE|최종등록년월일|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+LAST_AMNN_EMNO|12||Y|CHAR (6 Byte)|최종등록직원번호|Yes|TB_PCC_BGPLR_I_A|한도신청제한이력
+FNFU_LMAPL_NO|1|1|N|CHAR (23 Byte)|재정기금한도신청번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_SGSH_NO|2||N|CHAR (12 Byte)|재정기금추천서번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LMAPL_RGNO|3||Y|CHAR (8 Byte)|재정기금한도신청등록번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LMT_SRNO|4||Y|CHAR (3 Byte)|재정기금한도일련번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_CSNO|5||Y|CHAR (10 Byte)|재정기금고객번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_SBCD|6||Y|CHAR (3 Byte)|재정기금과목코드|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_POLC_CD|7||Y|CHAR (4 Byte)|재정기금시책코드|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_POLC_CLCD|8||Y|CHAR (2 Byte)|재정기금시책분류코드|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_FNUS_CD|9||Y|CHAR (6 Byte)|재정기금자금용도코드|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LNJR_SCYMD|10||Y|DATE|재정기금대출기표예정년월일|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_DFTE_EPYMD|11||Y|DATE|재정기금거치기간만료년월일|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LOAN_EXYMD|12||Y|DATE|재정기금대출만기년월일|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_MRTG_DSCD|13||Y|CHAR (6 Byte)|재정기금담보구분코드|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LMAPL_AMT|14||Y|"NUMBER (18,3)"|재정기금한도신청금액|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LMT_ATHZ_AMT|15||Y|"NUMBER (18,3)"|재정기금한도승인금액|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LMAPL_BRCD|16||Y|CHAR (4 Byte)|재정기금한도신청부점코드|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LMT_APCT_EMNO|17||Y|CHAR (6 Byte)|재정기금한도신청자직원번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LMAPL_YMD|18||Y|DATE|재정기금한도신청년월일|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+CNCL_YN|19||Y|CHAR (1 Byte)|취소여부|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+CNCL_YMD|20||Y|DATE|취소년월일|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LMAPL_ATYN|21||Y|CHAR (1 Byte)|재정기금한도신청승인여부|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LAAT_EMNO|22||Y|CHAR (6 Byte)|재정기금한도신청승인직원번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LAAT_YMD|23||Y|DATE|재정기금한도신청승인년월일|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+HNDL_MBCD|24||Y|CHAR (4 Byte)|취급모점코드|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+HMBR_ATYN|25||Y|CHAR (1 Byte)|취급모점승인여부|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+HMBR_APRR_EMNO|26||Y|CHAR (6 Byte)|취급모점승인자직원번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+HMBR_ATYMD|27||Y|DATE|취급모점승인년월일|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_SPAT_YN|28||Y|CHAR (1 Byte)|재정기금책임자승인여부|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+LHL_APLC_NO|29||Y|NUMBER (9)|여신취급한도신청번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNNL_FUND_BRNG_NO|30||Y|CHAR (12 Byte)|재정기금차입번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FRST_RGSN_YMD|31||Y|DATE|최초등록년월일|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FRST_RGSN_EMNO|32||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+LST_AMNN_YMD|33||Y|DATE|최종수정년월일|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+LAST_AMNN_EMNO|34||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGPLT_M_A|한도신청내역
+FNFU_LMAPL_NO|1|1|N|CHAR (23 Byte)|재정기금한도신청번호|Yes|TB_PCC_BGPLU_H_O|한도신청변경내역
+SRNO|2|2|N|NUMBER (7)|일련번호|Yes|TB_PCC_BGPLU_H_O|한도신청변경내역
+MDFC_YMD|3||Y|DATE|변경년월일|Yes|TB_PCC_BGPLU_H_O|한도신청변경내역
+LMAPL_MDFC_DSCD|4||Y|CHAR (6 Byte)|한도신청변경구분코드|Yes|TB_PCC_BGPLU_H_O|한도신청변경내역
+FNFU_BFMD_HSTR|5||Y|VARCHAR2 (100 Byte)|재정기금변경전내역|Yes|TB_PCC_BGPLU_H_O|한도신청변경내역
+FNFU_AFMD_HSTR|6||Y|VARCHAR2 (100 Byte)|재정기금변경후내역|Yes|TB_PCC_BGPLU_H_O|한도신청변경내역
+FRST_RGSN_YMD|7||Y|DATE|최초등록년월일|Yes|TB_PCC_BGPLU_H_O|한도신청변경내역
+FRST_RGSN_EMNO|8||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGPLU_H_O|한도신청변경내역
+LST_AMNN_YMD|9||Y|DATE|최종수정년월일|Yes|TB_PCC_BGPLU_H_O|한도신청변경내역
+LAST_AMNN_EMNO|10||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGPLU_H_O|한도신청변경내역
+FNFU_PRRM_ID|1|1|N|CHAR (7 Byte)|재정기금에서 사용하는 각각의 거래를 식별하기위한 고유 코드값(영문4+숫자3)|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+PRRM_KRN_NM|2||Y|VARCHAR2 (50 Byte)|재정기금에서 사용하는 거래 프로그램 한글명|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+FNFU_PRRM_PHNM|3||Y|VARCHAR2 (200 Byte)|재정기금에서 사용하는 프로그램의 경로|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+FNFU_IMG_PHNM|4||Y|VARCHAR2 (200 Byte)|재정기금에서 사용하는 이미지의 경로|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+USE_YN|5||Y|CHAR (1 Byte)|재정기금 내의 사용여부|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+FNFU_MENU_YN|6||Y|CHAR (1 Byte)|재정기금에서 사용하는 메뉴 여부|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+LNP_SQNO|7||Y|NUMBER (3)|재정기금 내의 정렬순서번호|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+FNFU_ATHR_CNTL_YN|8||Y|CHAR (1 Byte)|재정기금에서 사용하는 권한제어 여부|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+RMK1|9||Y|VARCHAR2 (500 Byte)|재정기금에서 사용하는 일반적인 내용을 입력(500 Byte)|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+FRST_RGSN_YMD|10||Y|DATE|최초 등록일자|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+FRST_RGSN_EMNO|11||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+LST_AMNN_YMD|12||Y|DATE|최종 수정일자|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+LAST_AMNN_EMNO|13||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGPRM_I_A|프로그램관리
+FNFU_BRNG_NO|1|1|N|CHAR (12 Byte)|재정기금차입번호|No|TB_PCC_BGPRP_L_O|차입할부금상환계획
+TMBT|2|2|N|NUMBER (3)|회차|No|TB_PCC_BGPRP_L_O|차입할부금상환계획
+SCDL_RPMN_YMD|3||Y|DATE|예정상환년월일|No|TB_PCC_BGPRP_L_O|차입할부금상환계획
+SCDL_RPMN_ISAMT|4||Y|"NUMBER (18,3)"|예정상환할부금액|No|TB_PCC_BGPRP_L_O|차입할부금상환계획
+REAL_RPMN_YMD|5||Y|DATE|실상환년월일|No|TB_PCC_BGPRP_L_O|차입할부금상환계획
+REAL_RPMN_ISAMT|6||Y|"NUMBER (18,3)"|실상환할부금액|No|TB_PCC_BGPRP_L_O|차입할부금상환계획
+FRST_RGSN_YMD|7||Y|DATE|최초등록년월일|No|TB_PCC_BGPRP_L_O|차입할부금상환계획
+FRST_RGSN_EMNO|8||Y|CHAR (6 Byte)|최초등록직원번호|No|TB_PCC_BGPRP_L_O|차입할부금상환계획
+LST_AMNN_YMD|9||Y|DATE|최종수정년월일|No|TB_PCC_BGPRP_L_O|차입할부금상환계획
+LAST_AMNN_EMNO|10||Y|CHAR (6 Byte)|최종수정직원번호|No|TB_PCC_BGPRP_L_O|차입할부금상환계획
+BASE_YMD|1|1|N|DATE|기준년월일|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+FNFU_SBCD|2|2|N|CHAR (3 Byte)|재정기금과목코드|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+FNFU_POLC_CD|3|3|N|CHAR (4 Byte)|재정기금시책코드|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+FNFU_POLC_CLCD|4|4|N|CHAR (2 Byte)|재정기금시책분류코드|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+FNFU_PRDD_CNT|5||Y|NUMBER (5)|재정기금전일건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+FNFU_PDBL|6||Y|"NUMBER (18,3)"|재정기금전일잔액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+NEW_EXCN_CNT|7||Y|NUMBER (5)|신규실행건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+NEW_EXCN_AMT|8||Y|"NUMBER (18,3)"|신규실행금액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+NEW_EXCN_CCCNT|9||Y|NUMBER (5)|신규실행취소건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+NEW_EXCN_CCAMT|10||Y|"NUMBER (18,3)"|신규실행취소금액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INPM_RGIR_CNT|11||Y|NUMBER (5)|할부금정기상환건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INPM_RGIR_AMT|12||Y|"NUMBER (18,3)"|할부금정기상환금액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INPM_RGIR_CCCNT|13||Y|NUMBER (5)|할부금정기상환취소건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INPM_RGIR_CCAMT|14||Y|"NUMBER (18,3)"|할부금정기상환취소금액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INPM_BFRP_CNT|15||Y|NUMBER (5)|할부금기한전상환건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INPM_BFRP_AMT|16||Y|"NUMBER (18,3)"|할부금기한전상환금액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INPM_BFRP_CCCNT|17||Y|NUMBER (5)|할부금기한전상환취소건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INPM_BFRP_CCAMT|18||Y|"NUMBER (18,3)"|할부금기한전상환취소금액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INTS_RGIR_CNT|19||Y|NUMBER (5)|이자정기상환건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INTS_RGIR_AMT|20||Y|"NUMBER (18,3)"|이자정기상환금액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INTS_RGIR_CCCNT|21||Y|NUMBER (5)|이자정기상환취소건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INTS_RGIR_CCAMT|22||Y|"NUMBER (18,3)"|이자정기상환취소금액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INTS_BFRP_CNT|23||Y|NUMBER (5)|이자기한전상환건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INTS_BFRP_AMT|24||Y|"NUMBER (18,3)"|이자기한전상환금액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INTS_BFRP_CCCNT|25||Y|NUMBER (5)|이자기한전상환취소건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+INTS_BFRP_CCAMT|26||Y|"NUMBER (18,3)"|이자기한전상환취소금액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+FNFU_THD_CNT|27||Y|NUMBER (5)|재정기금금일건수|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+FNFU_THD_BLNC|28||Y|"NUMBER (18,3)"|재정기금금일잔액|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+FRST_RGSN_YMD|29||Y|DATE|최초등록년월일|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+FRST_RGSN_EMNO|30||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+LST_AMNN_YMD|31||Y|DATE|최종수정년월일|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+LAST_AMNN_EMNO|32||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGPSU_S_D|차입시책별집계내역
+FNFU_SBCD|1|1|N|CHAR (3 Byte)|재정기금업무에서 사용되는 자금(또는 기금)의 분류코드 ex)028:지방구조조정자금|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+FNFU_SUBJ_NM|2||Y|VARCHAR2 (50 Byte)|재정기금 자금(또는 기금)의 자금명|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+FNFU_CMN_SUBJ_DSCD|3||Y|CHAR (6 Byte)|재정기금에서 사용하는 공통코드에 등록되어 있는 과목구분 코드|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+FNFU_CMN_CRDSCD|4||Y|CHAR (6 Byte)|재정기금에서 사용하는 공통코드에 등록되어 있는 통화구분 코드|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+BS_CD|5||Y|CHAR (6 Byte)|BS코드|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+PL_CD|6||Y|CHAR (6 Byte)|PL코드|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+NXGN_ACIT_BS_CD|7||Y|CHAR (10 Byte)|차세대 계정 B/S 코드|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+NXGN_ACIT_PL_CD|8||Y|CHAR (10 Byte)|차세대 계정 P/L 코드|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+FNFU_RLTD_SBCD|9||Y|CHAR (3 Byte)|재정기금 관련 과목 코드|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+FNFU_ISCD|10||Y|CHAR (4 Byte)|재정기금관련 외부기관 또는 타행의 기관코드(4자리)|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+USE_YN|11||Y|CHAR (1 Byte)|재정기금 내의 사용여부|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+APLY_SYMD|12||Y|DATE|적용 시작일자|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+APLY_EYMD|13||Y|DATE|적용 종료일자|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+FNFU_RMCT|14||Y|VARCHAR2 (4000 Byte)|"재정기금에서 사용하는 일반적인 내용을 입력(4,000 Byte)"|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+OTSD_INTT_PRDC_YN|15||Y|CHAR (1 Byte)|대외기관안내여부|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+OTIS_PRDE_CNTN|16||Y|VARCHAR2 (4000 Byte)|대외기관상품설명|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+FRST_RGSN_YMD|17||Y|DATE|최초 등록일자|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+FRST_RGSN_EMNO|18||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+LST_AMNN_YMD|19||Y|DATE|최종 수정일자|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+LAST_AMNN_EMNO|20||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGSBJ_I_O|과목원장관리
+FNFU_ISCD|1|1|N|CHAR (4 Byte)|재정기금관련 외부기관 또는 타행의 기관코드(4자리)|Yes|TB_PCC_BGSBK_C_A|과목별추천기관
+FNFU_SBCD|2|2|N|CHAR (3 Byte)|재정기금업무에서 사용되는 자금(또는 기금)의 분류코드 ex)028:지방구조조정자금|Yes|TB_PCC_BGSBK_C_A|과목별추천기관
+FNFU_POLC_CD|3|3|N|CHAR (4 Byte)|"재정기금내 하나의 과목에 대해 특성에 따라 여러 개의 ""시책코드""를 부여하여 정의할 수 있음. 시책코드는 '1001'부터 시작하는 숫자 4자리로 구성됨"|Yes|TB_PCC_BGSBK_C_A|과목별추천기관
+FRST_RGSN_YMD|4||Y|DATE|최종 수정일자|Yes|TB_PCC_BGSBK_C_A|과목별추천기관
+FRST_RGSN_EMNO|5||Y|CHAR (6 Byte)||Yes|TB_PCC_BGSBK_C_A|과목별추천기관
+LST_AMNN_YMD|6||Y|DATE||Yes|TB_PCC_BGSBK_C_A|과목별추천기관
+LAST_AMNN_EMNO|7||Y|CHAR (6 Byte)||Yes|TB_PCC_BGSBK_C_A|과목별추천기관
+WRTN_YMD|1|1|N|DATE|재정기금에서 사용하는 작성일자|Yes|TB_PCC_BGSCH_I_A|일정
+FNFU_SRNO|2|2|N|NUMBER (9)|재정기금에서 사용하는 일련번호|Yes|TB_PCC_BGSCH_I_A|일정
+FNFU_BRCD|3||Y|CHAR (4 Byte)|재정기금에서 사용하는 부점코드|Yes|TB_PCC_BGSCH_I_A|일정
+FNFU_SCHD_TTL_NM|4||Y|VARCHAR2 (200 Byte)|재정기금에서 사용하는 일정의 제목|Yes|TB_PCC_BGSCH_I_A|일정
+FNFU_SCHD_CNTN|5||Y|VARCHAR2 (4000 Byte)|재정기금에서 사용하는 일정의 내용|Yes|TB_PCC_BGSCH_I_A|일정
+MKR_EMNO|6||Y|CHAR (6 Byte)|재정기금 내에서 작성한 사용자 ID|Yes|TB_PCC_BGSCH_I_A|일정
+FNFU_SCHD_SYMD|7||N|DATE|재정기금에서 사용하는 일정관리 시작일자|Yes|TB_PCC_BGSCH_I_A|일정
+FNFU_SCHD_EYMD|8||Y|DATE|재정기금에서 사용하는 일정관리 종료일자|Yes|TB_PCC_BGSCH_I_A|일정
+FRST_RGSN_YMD|9||Y|DATE|최초 등록일자|Yes|TB_PCC_BGSCH_I_A|일정
+FRST_RGSN_EMNO|10||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGSCH_I_A|일정
+LST_AMNN_YMD|11||Y|DATE|최종 수정일자|Yes|TB_PCC_BGSCH_I_A|일정
+LAST_AMNN_EMNO|12||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGSCH_I_A|일정
+TRNS_YMD|1|1|N|DATE|재정기금관련 거래의 등록일자 년월일|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FNFU_BRNG_SRNO|2|2|N|CHAR (5 Byte)|재정기금내 차입번호를 구성하는 마지막 5자리의 일련번호임 (차입번호구성:과목코드3+연도4+순번5)|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FNFU_TRNS_DSCD42|3|3|N|CHAR (4 Byte)|재정기금 서울신용보증재단에서 발급하는 온라인통지서 관련 거래구분코드|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FNFU_TXHS1|4||Y|CHAR (6 Byte)|재정기금관련 등록내역의 시분초|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FNFU_RSPR_TLNO|5||Y|VARCHAR2 (20 Byte)|재정기금 서울신용보증재단의 담당자 전화번호|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+RSPR|6||Y|VARCHAR2 (20 Byte)|"재정기금관련 기관, 타행의 담당자"|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FNFU_GICD|7||Y|CHAR (7 Byte)|재정기금에서 사용하는 지로 코드|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FNFU_RSPN_DSCD|8||Y|CHAR (4 Byte)|재정기금 전문통신시 거래를 구분하는 거래구분코드|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FNFU_RPCD|9||Y|CHAR (4 Byte)|재정기금 전문통신시 거래처리후 오류 코드 값|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FNFU_RPCD_CNTN|10||Y|VARCHAR2 (40 Byte)|재정기금 전문통신시 거래처리후 오류 상세 내역|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FNFU_CGRT_CNTN|11||Y|VARCHAR2 (4000 Byte)|재정기금 전문통신시 수신되는 전문의 본문내용|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FNFU_CRGR_RCYN|12||Y|CHAR (1 Byte)|재정기금 전문통신시 수신된 전문내역이 있는지의 여부|Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FRST_RGSN_YMD|13||Y|DATE||Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+FRST_RGSN_EMNO|14||Y|CHAR (6 Byte)||Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+LST_AMNN_YMD|15||Y|DATE||Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+LAST_AMNN_EMNO|16||Y|CHAR (6 Byte)||Yes|TB_PCC_BGSLG_I_A|서울시로그원장
+NTC_NO|1|1|N|CHAR (30 Byte)|재정기금 서울신용보증재단에서 발급하는 온라인통지서를 고유하게 식별하는 코드ex)F-연도4-일련번호3-일련번호5|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_GICD|2|2|N|CHAR (7 Byte)|재정기금에서 사용하는 지로 코드|Yes|TB_PCC_BGSLL_M_A|서울시원장
+RNNO|3||Y|CHAR (20 Byte)|재정기금 온라인융자통지서에 표기된 실명번호|Yes|TB_PCC_BGSLL_M_A|서울시원장
+BULT_TTL|4||Y|VARCHAR2 (200 Byte)|재정기금 게시판의 제목|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_SLCY_NTC_AMT|5||Y|"NUMBER (18,3)"|재정기금 온라인융자통지서에 표기된 추천금액|Yes|TB_PCC_BGSLL_M_A|서울시원장
+ENTP_NM|6||Y|VARCHAR2 (40 Byte)|재정기금 차입관련 미지급 이자 계산시 대상 업체명|Yes|TB_PCC_BGSLL_M_A|서울시원장
+RPPR_NM|7||Y|VARCHAR2 (20 Byte)|재정기금 추천받은 대표자명|Yes|TB_PCC_BGSLL_M_A|서울시원장
+ADRS|8||Y|VARCHAR2 (200 Byte)|재정기금 internet서버를 통해 잔액증명서를 신청한 기관(타행) 주소|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_SPRN_BSNS_NM|9||Y|VARCHAR2 (50 Byte)|재정기금 온라인융자통지서에 표기된 지원사업명|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_SLCY_ITRC|10||Y|VARCHAR2 (20 Byte)|재정기금내에서 사용중인 이율|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_SLCY_FNTC|11||Y|VARCHAR2 (40 Byte)|재정기금 온라인융자통지서에 표기된 해당자금의 거치 및 상환기간|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_NTC_TERM_YMD|12||Y|DATE|재정기금 온라인융자통지서의 통지 가능기간|Yes|TB_PCC_BGSLL_M_A|서울시원장
+NTC_YMD|13||Y|DATE|재정기금내 추천서가 등록되면서 영업점으로 통지가 일어난 일자|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_FCLT_CNT|14||Y|NUMBER (5)|재정기금 온라인융자통지서에 표기된 업체의 시설건수|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_SPCN_HSTR|15||Y|VARCHAR2 (4000 Byte)|재정기금 온라인융자통지서에 표기된 특약내역|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_FCLT_HSTR|16||Y|VARCHAR2 (4000 Byte)|재정기금 온라인융자통지서에 표기된 업체의 시설 세부 내역|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_OTPT_EN|17||Y|CHAR (1 Byte)|재정기금 온라인융자통지서를 조회 후 출력거래까지 했는지의 여부|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_RCMD_EN|18||Y|CHAR (1 Byte)|재정기금 온라인융자통지서를 이용하여 재정기금상의 추천서등록거래를 했는지의 여부|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FRST_RGSN_YMD|19||Y|DATE|최종 수정일자|Yes|TB_PCC_BGSLL_M_A|서울시원장
+FRST_RGSN_EMNO|20||Y|CHAR (6 Byte)||Yes|TB_PCC_BGSLL_M_A|서울시원장
+LST_AMNN_YMD|21||Y|DATE||Yes|TB_PCC_BGSLL_M_A|서울시원장
+LAST_AMNN_EMNO|22||Y|CHAR (6 Byte)||Yes|TB_PCC_BGSLL_M_A|서울시원장
+FNFU_SGSH_NO|1|1|N|CHAR (12 Byte)|재정기금추천서번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_SGSH_RGNO|2||Y|CHAR (8 Byte)|재정기금추천서등록번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_SGSH_SRNO|3||Y|CHAR (4 Byte)|재정기금추천서일련번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_RCMD_YMD|4||Y|DATE|재정기금추천년월일|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_SBCD|5||Y|CHAR (3 Byte)|재정기금과목코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_POLC_CD|6||Y|CHAR (4 Byte)|재정기금시책코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_POLC_CLCD|7||Y|CHAR (2 Byte)|재정기금시책분류코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_FCLT_RCMD_AMT|8||Y|"NUMBER (18,3)"|재정기금시설추천금액|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_FCHN_DLYMD|9||Y|DATE|재정기금시설취급기한년월일|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_DRVN_RCMD_AMT|10||Y|"NUMBER (18,3)"|재정기금운전추천금액|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_DRHN_DLYMD|11||Y|DATE|재정기금운전취급기한년월일|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_RCMD_ISCD|12||Y|CHAR (4 Byte)|재정기금추천기관코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_BRNG_ISCD|13||Y|CHAR (4 Byte)|재정기금차입기관코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_HNDL_ISCD|14||Y|CHAR (4 Byte)|재정기금취급은행코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+HNDL_BRCD|15||Y|CHAR (4 Byte)|취급부점코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_HNBR_NM|16||Y|VARCHAR2 (30 Byte)|재정기금취급부점명|Yes|TB_PCC_BGSSL_M_A|추천서원장
+HNDL_MBCD|17||Y|CHAR (4 Byte)|취급모점코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_RCMD_ENNM|18||Y|CHAR (40 Byte)|재정기금추천업체명|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_RCEN_RPPR_NM|19||Y|VARCHAR2 (20 Byte)|재정기금추천업체대표자명|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_RLNM_DSCD|20||Y|CHAR (6 Byte)|재정기금실명구분코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+RRNO|21||Y|CHAR (15 Byte)|주민등록번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+RCEN_CRPT_NO|22||Y|CHAR (13 Byte)|추천업체법인번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+RCEN_BRNO|23||Y|CHAR (10 Byte)|추천업체사업자등록번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+RCEN_ZPCD|24||Y|CHAR (6 Byte)|추천업체우편번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+RCEN_ADRS|25||Y|VARCHAR2 (200 Byte)|추천업체주소|Yes|TB_PCC_BGSSL_M_A|추천서원장
+RCEN_SCL_CD|26||Y|CHAR (6 Byte)|추천업체규모코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+RCEN_TLNO|27||Y|VARCHAR2 (20 Byte)|추천업체전화번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+RCEN_BSNS_HSTR|28||Y|VARCHAR2 (250 Byte)|추천업체사업내역|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_FCAP_CAMT|29||Y|"NUMBER (18,3)"|재정기금시설신청누계금액|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_DRAP_CAMT|30||Y|"NUMBER (18,3)"|재정기금운전신청누계금액|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_FTIN_CTFA|31||Y|"NUMBER (18,3)"|재정기금시설불능누계자금액|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_DNIN_CTFA|32||Y|"NUMBER (18,3)"|재정기금운전불능누계자금액|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_FCLD_CAMT|33||Y|"NUMBER (18,3)"|재정기금시설대여누계금액|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_DRLN_CAMT|34||Y|"NUMBER (18,3)"|재정기금운전대여누계금액|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_FCLT_ECYMD|35||Y|DATE|재정기금시설실행년월일|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_DRVN_ECYMD|36||Y|DATE|재정기금운전실행년월일|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_SGSH_LDST_CD|37||Y|CHAR (6 Byte)|재정기금추천서원장구분코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+CNCL_YN|38||Y|CHAR (1 Byte)|취소여부|Yes|TB_PCC_BGSSL_M_A|추천서원장
+CNCL_YMD|39||Y|DATE|취소년월일|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_LAFR_RVYN|40||Y|CHAR (1 Byte)|재정기금대여신청서접수여부|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_SLCY_NTC_NO|41||Y|CHAR (13 Byte)|재정기금서울시통지번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_INTT_RCMD_NO|42||Y|CHAR (31 Byte)|재정기금기관추천번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_LMSM_DSCD|43||Y|CHAR (6 Byte)|재정기금일괄구분코드|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_LMSM_RYMD|44||Y|DATE|재정기금일괄등록년월일|Yes|TB_PCC_BGSSL_M_A|추천서원장
+SGSH_RGSN_REQS_YN|45||Y|CHAR (1 Byte)|추천서등록의뢰여부|Yes|TB_PCC_BGSSL_M_A|추천서원장
+MEMO_CNTN|46||Y|VARCHAR2 (1000 Byte)|메모내용|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FRST_RGSN_YMD|47||Y|DATE|최초등록년월일|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FRST_RGSN_EMNO|48||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+LST_AMNN_YMD|49||Y|DATE|최종수정년월일|Yes|TB_PCC_BGSSL_M_A|추천서원장
+LAST_AMNN_EMNO|50||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGSSL_M_A|추천서원장
+FNFU_SGSH_NO|1|1|N|CHAR (12 Byte)|재정기금추천서번호|Yes|TB_PCC_BGSSU_H_O|추천서변경내역
+SRNO|2|2|N|NUMBER (7)|일련번호|Yes|TB_PCC_BGSSU_H_O|추천서변경내역
+MDFC_YMD|3||Y|DATE|변경년월일|Yes|TB_PCC_BGSSU_H_O|추천서변경내역
+SGSH_MDFC_DSCD|4||Y|CHAR (6 Byte)|추천서변경구분코드|Yes|TB_PCC_BGSSU_H_O|추천서변경내역
+FNFU_BFMD_HSTR|5||Y|VARCHAR2 (100 Byte)|재정기금변경전내역|Yes|TB_PCC_BGSSU_H_O|추천서변경내역
+FNFU_AFMD_HSTR|6||Y|VARCHAR2 (100 Byte)|재정기금변경후내역|Yes|TB_PCC_BGSSU_H_O|추천서변경내역
+FRST_RGSN_YMD|7||Y|DATE|최초등록년월일|Yes|TB_PCC_BGSSU_H_O|추천서변경내역
+FRST_RGSN_EMNO|8||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_BGSSU_H_O|추천서변경내역
+LST_AMNN_YMD|9||Y|DATE|최종수정년월일|Yes|TB_PCC_BGSSU_H_O|추천서변경내역
+LAST_AMNN_EMNO|10||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_BGSSU_H_O|추천서변경내역
+FNFU_BRNG_NO|1|1|N|CHAR (12 Byte)|재정기금차입번호|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+FNFU_TRSRNO|2|2|N|CHAR (3 Byte)|재정기금거래일련번호|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+SRNO|3|3|N|NUMBER (7)|일련번호|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+AMT_PTRN_CD|4||Y|CHAR (6 Byte)|금액유형코드|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+TMBT|5||Y|NUMBER (3)|회차|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+AMT|6||Y|"NUMBER (18,3)"|금액|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+INTS_CLCL_TRGT_AMT|7||Y|"NUMBER (18,3)"|이자계산대상금액|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+INTS_CLCL_STTG_YMD|8||Y|DATE|이자계산시작년월일|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+INTS_CLCL_EYMD|9||Y|DATE|이자계산종료년월일|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+INTS_DDNC|10||Y|NUMBER (5)|이자일수|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+INRT|11||Y|"NUMBER (9,6)"|이율|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+FRST_RGSN_YMD|12||Y|DATE|최초등록년월일|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+FRST_RGSN_EMNO|13||Y|CHAR (6 Byte)|최초등록직원번호|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+LST_AMNN_YMD|14||Y|DATE|최종수정년월일|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+LAST_AMNN_EMNO|15||Y|CHAR (6 Byte)|최종수정직원번호|No|TB_PCC_BGTRN_D_O|차입거래상환상세내역
+FNFU_BRNG_NO|1|1|N|CHAR (12 Byte)|재정기금차입번호|No|TB_PCC_BGTRN_L_O|차입거래내역
+FNFU_TRSRNO|2|2|N|CHAR (3 Byte)|재정기금거래일련번호|No|TB_PCC_BGTRN_L_O|차입거래내역
+TRNS_YMD|3||Y|DATE|거래년월일|No|TB_PCC_BGTRN_L_O|차입거래내역
+FNFU_TRPT_CD|4||Y|CHAR (6 Byte)|재정기금거래유형코드|No|TB_PCC_BGTRN_L_O|차입거래내역
+FNFU_RPMN_DSCD|5||Y|CHAR (6 Byte)|재정기금상환구분코드|No|TB_PCC_BGTRN_L_O|차입거래내역
+TRNS_AMT|6||Y|"NUMBER (18,3)"|거래금액|No|TB_PCC_BGTRN_L_O|차입거래내역
+FNFU_ISAMT|7||Y|"NUMBER (18,3)"|재정기금할부금액|No|TB_PCC_BGTRN_L_O|차입거래내역
+FNFU_INTS_AMT|8||Y|"NUMBER (18,3)"|재정기금이자금액|No|TB_PCC_BGTRN_L_O|차입거래내역
+FNFU_LMAPL_NO|9||Y|CHAR (23 Byte)|재정기금한도신청번호|No|TB_PCC_BGTRN_L_O|차입거래내역
+WLIN_IPYMD|10||Y|DATE|전최종이자수입년월일|No|TB_PCC_BGTRN_L_O|차입거래내역
+LST_INTS_IPRT_YMD|11||Y|DATE|최종이자수입년월일|No|TB_PCC_BGTRN_L_O|차입거래내역
+INPM_GRCE_DSCD|12||Y|CHAR (6 Byte)|할부금유예구분코드|No|TB_PCC_BGTRN_L_O|차입거래내역
+CBS_TSYMD|13||Y|DATE|계정계전송년월일|No|TB_PCC_BGTRN_L_O|차입거래내역
+CBS_TSRNO|14||Y|NUMBER (10)|계정계전송일련번호|No|TB_PCC_BGTRN_L_O|차입거래내역
+TRNS_STCD|15||Y|CHAR (1 Byte)|거래상태코드|No|TB_PCC_BGTRN_L_O|차입거래내역
+ASCT_TRSRNO|16||Y|CHAR (3 Byte)|연관거래일련번호|No|TB_PCC_BGTRN_L_O|차입거래내역
+FRST_RGSN_YMD|17||Y|DATE|최초등록년월일|No|TB_PCC_BGTRN_L_O|차입거래내역
+FRST_RGSN_EMNO|18||Y|CHAR (6 Byte)|최초등록직원번호|No|TB_PCC_BGTRN_L_O|차입거래내역
+LST_AMNN_YMD|19||Y|DATE|최종수정년월일|No|TB_PCC_BGTRN_L_O|차입거래내역
+LAST_AMNN_EMNO|20||Y|CHAR (6 Byte)|최종수정직원번호|No|TB_PCC_BGTRN_L_O|차입거래내역
+FNFU_INTT_RCMD_NO|1|1|N|VARCHAR2 (31 Byte)|재정기금 추천서를 발급한 추천기관 코드|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_RCMD_YMD|2||Y|DATE|재정기금내에서 사용되는 추천서를 추천기관으로부터 실제로 추천받은 년월일|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_FCLT_RCMD_AMT|3||Y|"NUMBER (18,3)"|재정기금내에서 사용되는 추천서상 시설자금으로 추천받은금액|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_DRVN_RCMD_AMT|4||Y|"NUMBER (18,3)"|재정기금내에서 사용되는 추천서상 운전자금으로 추천받은금액|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_FCHN_DLYMD|5||Y|DATE|재정기금내에서 사용되는 추천서의 발급기관으로 부터 부여받은 시설자금의 취급가능기한 년월일|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_DRHN_DLYMD|6||Y|DATE|재정기금내에서 사용되는 추천서의 발급기관으로 부터 부여받은 운전자금의 취급가능기한 년월일|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_ISCD|7||Y|CHAR (4 Byte)|재정기금 추천받은 대상 취급은행|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_HNBR_NM|8||Y|VARCHAR2 (30 Byte)|재정기금 발급받은 추천서를 취급할 당/타행 영업점명|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_RCMD_ENNM|9||Y|CHAR (40 Byte)|재정기금 추천기관으로부터 추천서를 발급받은 업체명|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_RCEN_RPPR_NM|10||Y|VARCHAR2 (20 Byte)|재정기금 추천받은 대표자명|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+RRNO|11||Y|CHAR (15 Byte)|재정기금 추천기관으로부터 추천서를 발급받은 대표자의 주민번호|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+CRNO|12||Y|CHAR (13 Byte)|법인등록번호|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+BRNO|13||Y|CHAR (10 Byte)|사업자등록번호|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+ZPCD|14||Y|CHAR (6 Byte)|우편번호|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+ADRS|15||Y|VARCHAR2 (200 Byte)|재정기금 internet서버를 통해 잔액증명서를 신청한 기관(타행) 주소|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_TASK_NM|16||Y|VARCHAR2 (200 Byte)|재정기금 추천받은 업체가 영위하는 사업명 또는 사업활동|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_TLNO|17||Y|CHAR (20 Byte)|재정기금 추천받은 업체의 전화번호|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+FNFU_ENTP_SCL_CD|18||Y|CHAR (1 Byte)|"재정기금 추천받은 업체의 규모를 구분하기위한 코드 1:대기업, 2:중소기업"|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+PCSN_YN|19||Y|CHAR (1 Byte)|재정기금시스템에서 차입정기상환내역이 실제로 처리가 되었는지의 여부를 위한 구분자|Yes|TB_PCC_BGTTA_T_A|ITA추천서통제임시테이블
+EMNO|1|1|N|CHAR (6 Byte)|재정기금에서 사용하는 직원번호|Yes|TB_PCC_BGUSR_I_D3|사용자관리
+EMPL_NM|2||Y|VARCHAR2 (20 Byte)|재정기금에서 사용하는 직원명|Yes|TB_PCC_BGUSR_I_D4|사용자관리
+FNFU_PWD|3||Y|VARCHAR2 (50 Byte)|재정기금내 접속을 위한 사용자의 비밀번호|Yes|TB_PCC_BGUSR_I_D5|사용자관리
+BLNG_BRCD|4||Y|CHAR (4 Byte)|소속 부점코드|Yes|TB_PCC_BGUSR_I_D6|사용자관리
+BLNG_TEAM_CD|5||Y|CHAR (4 Byte)|소속 팀코드|Yes|TB_PCC_BGUSR_I_D7|사용자관리
+PSNT_BLNG_YMD|6||Y|DATE|현재 소속일자|Yes|TB_PCC_BGUSR_I_D8|사용자관리
+TRTH_WORK_BRCD|7||Y|CHAR (4 Byte)|실제 근무부점 코드|Yes|TB_PCC_BGUSR_I_D9|사용자관리
+FNFU_DUTY_CD|8||Y|CHAR (6 Byte)|재정기금에서 사용하는 공통코드에 등록되어 있는 직무 코드|Yes|TB_PCC_BGUSR_I_D10|사용자관리
+FNFU_RSPT_CD|9||Y|CHAR (6 Byte)|재정기금에서 사용하는 공통코드에 등록되어 있는 직책 코드|Yes|TB_PCC_BGUSR_I_D11|사용자관리
+DUTY_YMD|10||Y|DATE|직무일자|Yes|TB_PCC_BGUSR_I_D12|사용자관리
+SLCL|11||Y|NUMBER (5)|호봉|Yes|TB_PCC_BGUSR_I_D13|사용자관리
+SLCL_YMD|12||Y|DATE|호봉일자|Yes|TB_PCC_BGUSR_I_D14|사용자관리
+MNDT_CD|13||Y|CHAR (6 Byte)|보임코드|Yes|TB_PCC_BGUSR_I_D15|사용자관리
+RTRM_YMD|14||Y|DATE|퇴직일자|Yes|TB_PCC_BGUSR_I_D16|사용자관리
+FNFU_ENBN_DSCD|15||Y|CHAR (6 Byte)|재정기금에서 사용하는 공통코드에 등록되어 있는 입행구분 코드|Yes|TB_PCC_BGUSR_I_D17|사용자관리
+ENBN_YMD|16||Y|DATE|입행일자|Yes|TB_PCC_BGUSR_I_D18|사용자관리
+EMPL_ONLN_NO|17||Y|CHAR (15 Byte)|직원 온라인 번호|Yes|TB_PCC_BGUSR_I_D19|사용자관리
+TLNO|18||Y|VARCHAR2 (20 Byte)|전화번호|Yes|TB_PCC_BGUSR_I_D20|사용자관리
+GNDR_CNTN|19||Y|VARCHAR2 (4 Byte)|성별 내용|Yes|TB_PCC_BGUSR_I_D21|사용자관리
+FNFU_WBCSNO|20||Y|CHAR (10 Byte)|재정기금 관련 전행고객번호|Yes|TB_PCC_BGUSR_I_D22|사용자관리
+FNFU_ATHR_ROLE_ID|21||Y|CHAR (6 Byte)|재정기금에서 사용하는 공통코드에 등록되어 있는 권한역할 ID|Yes|TB_PCC_BGUSR_I_D23|사용자관리
+PWD_MDFC_YMD|22||Y|DATE|비밀번호 변경일자|Yes|TB_PCC_BGUSR_I_D24|사용자관리
+PWD_ERR_TMCT|23||Y|NUMBER (5)|비밀번호 오류 횟수|Yes|TB_PCC_BGUSR_I_D25|사용자관리
+ATMT_RNL_YN|24||Y|CHAR (1 Byte)|재정기금에서 사용하는 자동갱신 여부|Yes|TB_PCC_BGUSR_I_D26|사용자관리
+FNFU_AIPR_ABYN|25||Y|CHAR (1 Byte)|재정기금내 계정처리 관련거래의 실행 권한 (Y/N)|Yes|TB_PCC_BGUSR_I_D27|사용자관리
+TMNO|26||Y|CHAR (3 Byte)|온라인 계정 처리시 해당 단말기의 단말번호|Yes|TB_PCC_BGUSR_I_D28|사용자관리
+FNFU_TRMN_LGN_YN|27||Y|CHAR (1 Byte)|재정기금 사용자가 단말기에 접속한 경우 HOST로부터 단말로그인 여부를 수신 받음|Yes|TB_PCC_BGUSR_I_D29|사용자관리
+FNFU_TRMN_BRCD|28||Y|CHAR (4 Byte)|재정기금에서 사용하는 단말부점 코드|Yes|TB_PCC_BGUSR_I_D30|사용자관리
+FNFU_ATMT_RNYMD|29||Y|DATE|재정기금의 자동 갱신일자|Yes|TB_PCC_BGUSR_I_D31|사용자관리
+FNFU_LAST_CCTN_YMD|30||Y|DATE|재정기금의 최종 접속일자|Yes|TB_PCC_BGUSR_I_D32|사용자관리
+FNFU_LAST_CCTN_IP|31||Y|VARCHAR2 (40 Byte)|재정기금의 최종 접속IP|Yes|TB_PCC_BGUSR_I_D33|사용자관리
+FNFU_MEMO_CNTN|32||Y|VARCHAR2 (4000 Byte)|재정기금메모내용|Yes|TB_PCC_BGUSR_I_D34|사용자관리
+FRST_RGSN_YMD|33||Y|DATE|최초 등록일자|Yes|TB_PCC_BGUSR_I_D35|사용자관리
+FRST_RGSN_EMNO|34||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGUSR_I_D36|사용자관리
+LST_AMNN_YMD|35||Y|DATE|최종 수정일자|Yes|TB_PCC_BGUSR_I_D37|사용자관리
+LAST_AMNN_EMNO|36||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGUSR_I_D38|사용자관리
+FNFU_SRNO|1|1|N|NUMBER (9)|재정기금에서 사용하는 일련번호|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+ZPCD|2||N|CHAR (6 Byte)|우편번호|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+CITY_NM|3||Y|VARCHAR2 (20 Byte)|"도, 시명"|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+CCW|4||Y|VARCHAR2 (20 Byte)|"시, 군, 구명"|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+EMD|5||Y|VARCHAR2 (40 Byte)|"읍, 면, 동명"|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+NMAD_APT_APNO|6||Y|VARCHAR2 (40 Byte)|"번지, 아파트동"|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+STTG_ARNB|7||Y|VARCHAR2 (20 Byte)|우편번호 주소의 시작지번|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+FNSH_ARNB|8||Y|VARCHAR2 (20 Byte)|우편번호 주소의 종료지번|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+FRST_RGSN_YMD|9||Y|DATE|최초 등록일자|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+FRST_RGSN_EMNO|10||Y|CHAR (6 Byte)|최초 등록 직원번호|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+LST_AMNN_YMD|11||Y|DATE|최종 수정일자|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+LAST_AMNN_EMNO|12||Y|CHAR (6 Byte)|최종 수정 직원번호|Yes|TB_PCC_BGZIP_I_O|우편번호관리
+BASE_YMD|1|1|N|DATE|기준년월일|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+FNFU_LNDN_NO|2|2|N|CHAR (12 Byte)|재정기금대여번호|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+LNDN_EXCN_AMT|3||Y|"NUMBER (18,3)"|대여실행금액|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+RGIN_RTRV_ISAMT|4||Y|"NUMBER (18,3)"|정기회수할부금액|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+RGIN_RTRV_INTS_AMT|5||Y|"NUMBER (18,3)"|정기회수이자금액|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+BTLR_INSL_AMT|6||Y|"NUMBER (18,3)"|기한전회수할부금액|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+BTLR_INTS_AMT|7||Y|"NUMBER (18,3)"|기한전회수이자금액|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+INBL_RTRV_ISAMT|8||Y|"NUMBER (18,3)"|불능회수할부금액|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+INBL_RTRV_INTS_AMT|9||Y|"NUMBER (18,3)"|불능회수이자금액|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+RSTR_RTRV_ISAMT|10||Y|"NUMBER (18,3)"|제재회수할부금액|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+RSTR_RTRV_INTS_AMT|11||Y|"NUMBER (18,3)"|제재회수이자금액|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+LNDN_EXCN_BLNC|12||Y|"NUMBER (18,3)"|대여실행잔액|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+FRST_RGSN_YMD|13||Y|DATE|최초등록년월일|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+FRST_RGSN_EMNO|14||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+LST_AMNN_YMD|15||Y|DATE|최종수정년월일|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+LAST_AMNN_EMNO|16||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_LNASU_S_D|대여계좌별집계내역
+FNFU_LNDN_NO|1|1|N|CHAR (12 Byte)|재정기금대여번호|Yes|TB_PCC_LNIRP_L_O|대여이자회수계획
+TMBT|2|2|N|NUMBER (3)|회차|Yes|TB_PCC_LNIRP_L_O|대여이자회수계획
+SCDL_RTRV_YMD|3||Y|DATE|예정회수년월일|Yes|TB_PCC_LNIRP_L_O|대여이자회수계획
+REAL_RTRV_YMD|4||Y|DATE|실회수년월일|Yes|TB_PCC_LNIRP_L_O|대여이자회수계획
+REAL_RTRV_INTS_AMT|5||Y|"NUMBER (18,3)"|실회수이자금액|Yes|TB_PCC_LNIRP_L_O|대여이자회수계획
+FRST_RGSN_YMD|6||Y|DATE|최초등록년월일|Yes|TB_PCC_LNIRP_L_O|대여이자회수계획
+FRST_RGSN_EMNO|7||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_LNIRP_L_O|대여이자회수계획
+LST_AMNN_YMD|8||Y|DATE|최종수정년월일|Yes|TB_PCC_LNIRP_L_O|대여이자회수계획
+LAST_AMNN_EMNO|9||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_LNIRP_L_O|대여이자회수계획
+FNFU_LNDN_NO|1|1|N|CHAR (12 Byte)|재정기금대여번호|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_SBCD|2||Y|CHAR (3 Byte)|재정기금과목코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_YEAR|3||Y|CHAR (4 Byte)|재정기금년|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_LNDN_SRNO|4||Y|CHAR (5 Byte)|재정기금대여일련번호|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_POLC_CD|5||Y|CHAR (4 Byte)|재정기금시책코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_POLC_CLCD|6||Y|CHAR (2 Byte)|재정기금시책분류코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_SGSH_NO|7||Y|CHAR (12 Byte)|재정기금추천서번호|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+EXCN_YMD|8||Y|DATE|실행년월일|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+EXYMD|9||Y|DATE|만기년월일|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+LNDN_FMCD|10||Y|CHAR (6 Byte)|대여형태코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+LNDN_EXCN_AMT|11||Y|"NUMBER (18,3)"|대여실행금액|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+LNDN_EXCN_BLNC|12||Y|"NUMBER (18,3)"|대여실행잔액|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+DFRM_TERM|13||Y|NUMBER (5)|거치기간|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+RPMN_TERM|14||Y|NUMBER (5)|상환기간|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+INPM_RTCC_DSCD|15||Y|CHAR (6 Byte)|할부금회수주기구분코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+INPM_RTRV_CYCD|16||Y|CHAR (6 Byte)|할부금회수주기코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+INPM_RTDY_CD|17||Y|CHAR (6 Byte)|할부금회수일자코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_IRTQ_MMDD1|18||Y|CHAR (4 Byte)|재정기금할부회수분기월일1|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_IRTQ_MMDD2|19||Y|CHAR (4 Byte)|재정기금할부회수분기월일2|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_IRTQ_MMDD3|20||Y|CHAR (4 Byte)|재정기금할부회수분기월일3|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_IRTQ_MMDD4|21||Y|CHAR (4 Byte)|재정기금할부회수분기월일4|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+IRRT_CYCL_DSCD|22||Y|CHAR (6 Byte)|이자회수주기구분코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+IRRT_CYCL_CD|23||Y|CHAR (6 Byte)|이자회수주기코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+INTS_RTDY_CD|24||Y|CHAR (6 Byte)|이자회수일자코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_IRRQ_MMDD1|25||Y|CHAR (4 Byte)|재정기금이자회수분기월일1|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_IRRQ_MMDD2|26||Y|CHAR (4 Byte)|재정기금이자회수분기월일2|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_IRRQ_MMDD3|27||Y|CHAR (4 Byte)|재정기금이자회수분기월일3|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_IRRQ_MMDD4|28||Y|CHAR (4 Byte)|재정기금이자회수분기월일4|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+LST_INTS_IPRT_YMD|29||Y|DATE|최종이자수입년월일|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FRST_INSL_RTRV_YMD|30||Y|DATE|최초할부회수년월일|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+RGIN_RTRV_ISAMT|31||Y|"NUMBER (18,3)"|정기회수할부금액|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+RGIN_RTRV_INTS_AMT|32||Y|"NUMBER (18,3)"|정기회수이자금액|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+INBL_RTRV_ISAMT|33||Y|"NUMBER (18,3)"|불능회수할부금액|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+INBL_RTRV_INTS_AMT|34||Y|"NUMBER (18,3)"|불능회수이자금액|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+RSTR_RTRV_ISAMT|35||Y|"NUMBER (18,3)"|제재회수할부금액|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+RSTR_RTRV_INTS_AMT|36||Y|"NUMBER (18,3)"|제재회수이자금액|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_LNDN_ISCD|37||Y|CHAR (4 Byte)|재정기금대여기관코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+HNDL_MBCD|38||Y|CHAR (4 Byte)|취급모점코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_FNUS_CD|39||Y|CHAR (6 Byte)|재정기금자금용도코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_LNDN_LDST_CD|40||Y|CHAR (6 Byte)|재정기금대여원장상태코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_BRNG_APLC_NO|41||Y|CHAR (12 Byte)|재정기금차입신청번호|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_MRTG_DSCD|42||Y|CHAR (6 Byte)|재정기금담보구분코드|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FRST_RGSN_YMD|43||Y|DATE|최초등록년월일|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FRST_RGSN_EMNO|44||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+LST_AMNN_YMD|45||Y|DATE|최종수정년월일|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+LAST_AMNN_EMNO|46||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_LNLDG_M_O|대여실행원장
+FNFU_LNDN_NO|1|1|N|CHAR (12 Byte)|재정기금대여번호|Yes|TB_PCC_LNPRP_L_O|대여할부금회수계획
+TMBT|2|2|N|NUMBER (3)|회차|Yes|TB_PCC_LNPRP_L_O|대여할부금회수계획
+SCDL_RTRV_YMD|3||Y|DATE|예정회수년월일|Yes|TB_PCC_LNPRP_L_O|대여할부금회수계획
+SCDL_RTRV_ISAMT|4||Y|"NUMBER (18,3)"|예정회수할부금액|Yes|TB_PCC_LNPRP_L_O|대여할부금회수계획
+REAL_RTRV_YMD|5||Y|DATE|실회수년월일|Yes|TB_PCC_LNPRP_L_O|대여할부금회수계획
+REAL_RTRV_ISAMT|6||Y|"NUMBER (18,3)"|실회수할부금액|Yes|TB_PCC_LNPRP_L_O|대여할부금회수계획
+FRST_RGSN_YMD|7||Y|DATE|최초등록년월일|Yes|TB_PCC_LNPRP_L_O|대여할부금회수계획
+FRST_RGSN_EMNO|8||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_LNPRP_L_O|대여할부금회수계획
+LST_AMNN_YMD|9||Y|DATE|최종수정년월일|Yes|TB_PCC_LNPRP_L_O|대여할부금회수계획
+LAST_AMNN_EMNO|10||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_LNPRP_L_O|대여할부금회수계획
+BASE_YMD|1|1|N|DATE|기준년월일|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+FNFU_SBCD|2|2|N|CHAR (3 Byte)|재정기금과목코드|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+FNFU_POLC_CD|3|3|N|CHAR (4 Byte)|재정기금시책코드|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+FNFU_POLC_CLCD|4|4|N|CHAR (2 Byte)|재정기금시책분류코드|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+FNFU_PRDD_CNT|5||Y|NUMBER (5)|재정기금전일건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+FNFU_PDBL|6||Y|"NUMBER (18,3)"|재정기금전일잔액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+NEW_EXCN_CNT|7||Y|NUMBER (5)|신규실행건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+NEW_EXCN_AMT|8||Y|"NUMBER (18,3)"|신규실행금액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+NEW_EXCN_CCCNT|9||Y|NUMBER (5)|신규실행취소건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+NEW_EXCN_CCAMT|10||Y|"NUMBER (18,3)"|신규실행취소금액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INPM_RGIN_RTRV_CNT|11||Y|NUMBER (5)|할부금정기회수건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INPM_RGIN_RTAMT|12||Y|"NUMBER (18,3)"|할부금정기회수금액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INPM_RIRT_CCCNT|13||Y|NUMBER (5)|할부금정기회수취소건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INPM_RIRT_CCAMT|14||Y|"NUMBER (18,3)"|할부금정기회수취소금액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INPM_BFTL_RTRV_CNT|15||Y|NUMBER (5)|할부금기한전회수건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INPM_BFTL_RTAMT|16||Y|"NUMBER (18,3)"|할부금기한전회수금액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INPM_BTLR_CCCNT|17||Y|NUMBER (5)|할부금기한전회수취소건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INPM_BTLR_CCAMT|18||Y|"NUMBER (18,3)"|할부금기한전회수취소금액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INTS_RGIN_RTRV_CNT|19||Y|NUMBER (5)|이자정기회수건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INTS_RGIN_RTAMT|20||Y|"NUMBER (18,3)"|이자정기회수금액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INTS_RIRT_CCCNT|21||Y|NUMBER (5)|이자정기회수취소건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INTS_RIRT_CCAMT|22||Y|"NUMBER (18,3)"|이자정기회수취소금액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INTS_BFTL_RTRV_CNT|23||Y|NUMBER (5)|이자기한전회수건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INTS_BFTL_RTAMT|24||Y|"NUMBER (18,3)"|이자기한전회수금액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INTS_BTLR_CCCNT|25||Y|NUMBER (5)|이자기한전회수취소건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+INTS_BTLR_CCAMT|26||Y|"NUMBER (18,3)"|이자기한전회수취소금액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+FNFU_THD_CNT|27||Y|NUMBER (5)|재정기금금일건수|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+FNFU_THD_BLNC|28||Y|"NUMBER (18,3)"|재정기금금일잔액|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+FRST_RGSN_YMD|29||Y|DATE|최초등록년월일|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+FRST_RGSN_EMNO|30||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+LST_AMNN_YMD|31||Y|DATE|최종수정년월일|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+LAST_AMNN_EMNO|32||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_LNPSU_S_D|대여시책별집계내역
+FNFU_LNDN_NO|1|1|N|CHAR (12 Byte)|재정기금대여번호|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+FNFU_TRSRNO|2|2|N|CHAR (3 Byte)|재정기금거래일련번호|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+SRNO|3|3|N|NUMBER (7)|일련번호|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+AMT_PTRN_CD|4||Y|CHAR (6 Byte)|금액유형코드|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+TMBT|5||Y|NUMBER (3)|회차|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+AMT|6||Y|"NUMBER (18,3)"|금액|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+INTS_CLCL_TRGT_AMT|7||Y|"NUMBER (18,3)"|이자계산대상금액|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+INTS_CLCL_STTG_YMD|8||Y|DATE|이자계산시작년월일|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+INTS_CLCL_EYMD|9||Y|DATE|이자계산종료년월일|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+INTS_DDNC|10||Y|NUMBER (5)|이자일수|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+INRT|11||Y|"NUMBER (9,6)"|이율|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+FRST_RGSN_YMD|12||Y|DATE|최초등록년월일|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+FRST_RGSN_EMNO|13||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+LST_AMNN_YMD|14||Y|DATE|최종수정년월일|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+LAST_AMNN_EMNO|15||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_LNTRN_D_O|대여거래회수상세내역
+FNFU_LNDN_NO|1|1|N|CHAR (12 Byte)|재정기금대여번호|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+FNFU_TRSRNO|2|2|N|CHAR (3 Byte)|재정기금거래일련번호|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+TRNS_YMD|3||Y|DATE|거래년월일|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+FNFU_TRPT_CD|4||Y|CHAR (6 Byte)|재정기금거래유형코드|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+FNFU_RTRV_DSCD|5||Y|CHAR (6 Byte)|재정기금회수구분코드|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+TRNS_AMT|6||Y|"NUMBER (18,3)"|거래금액|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+FNFU_ISAMT|7||Y|"NUMBER (18,3)"|재정기금할부금액|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+FNFU_INTS_AMT|8||Y|"NUMBER (18,3)"|재정기금이자금액|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+FNFU_LMAPL_NO|9||Y|CHAR (23 Byte)|재정기금한도신청번호|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+WLIN_IPYMD|10||Y|DATE|전최종이자수입년월일|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+LST_INTS_IPRT_YMD|11||Y|DATE|최종이자수입년월일|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+CBS_TSYMD|12||Y|DATE|계정계전송년월일|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+CBS_TSRNO|13||Y|NUMBER (10)|계정계전송일련번호|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+TRNS_STCD|14||Y|CHAR (1 Byte)|거래상태코드|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+ASCT_TRSRNO|15||Y|CHAR (3 Byte)|연관거래일련번호|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+FRST_RGSN_YMD|16||Y|DATE|최초등록년월일|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+FRST_RGSN_EMNO|17||Y|CHAR (6 Byte)|최초등록직원번호|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+LST_AMNN_YMD|18||Y|DATE|최종수정년월일|Yes|TB_PCC_LNTRN_L_O|대여거래내역
+LAST_AMNN_EMNO|19||Y|CHAR (6 Byte)|최종수정직원번호|Yes|TB_PCC_LNTRN_L_O|대여거래내역

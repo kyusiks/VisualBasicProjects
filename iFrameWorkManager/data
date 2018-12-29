@@ -1,0 +1,576 @@
+#휘리릭 Svc첵
+#휘리릭 0
+#휘리릭 Svc시작
+#휘리릭 추가
+        rsp.setMakeXML(true, "utf-8");
+        /***********************************************************************
+         * 0. 입력파라미터 => DataCollection : DataRequest 데이터를 DataCollection으로 변환
+         **********************************************************************/
+
+        DataCollection dcInsert = new DataCollection();
+        super.putDataRequestToDataCollection(req, dcInsert);
+        putSessionToDataCollection(dcInsert);
+
+        Connection con = null;
+        con = getConnection();
+
+        try {
+            /*******************************************************************
+             * 1. 비지니스 로직 호출 : 비지니스 클래스 호출시 Connection을 생성자로 넘겨준다
+             ******************************************************************/
+#휘리릭 추가1
+
+
+        } catch (Exception e) {
+            /*******************************************************************
+             * 서비스 실패 : 서비스 과정을 try 예외 처리를 해줘야 한다. : 로직 오류 결과 메시지를 DataResponse에
+             * 설정해준다.
+             ******************************************************************/
+            super.putFailureCode(e.getMessage(), rsp);
+            throw e;
+        } finally {
+
+        }
+
+        /***********************************************************************
+         * 서비스 성공시
+         **********************************************************************/
+        putSuccessCode(" 등록되었습니다.", rsp);
+#휘리릭 추가끝
+
+#휘리릭 수정
+        rsp.setMakeXML(true, "utf-8");
+        /***********************************************************************
+         * 0. 입력파라미터 => DataCollection : DataRequest 데이터를 DataCollection으로 변환
+         **********************************************************************/
+
+        DataCollection dcUpdate = new DataCollection();
+        super.putDataRequestToDataCollection(req, dcUpdate);
+        putSessionToDataCollection(dcUpdate);
+        Connection con = null;
+        con = getConnection();
+
+        try {
+            /*******************************************************************
+             * 1. 비지니스 로직 호출 : 비지니스 클래스 호출시 Connection을 생성자로 넘겨준다
+             ******************************************************************/
+#휘리릭 수정1
+
+        } catch (Exception e) {
+            /*******************************************************************
+             * 서비스 실패 : 서비스 과정을 try 예외 처리를 해줘야 한다. : 로직 오류 결과 메시지를 DataResponse에
+             * 설정해준다.
+             ******************************************************************/
+            super.putFailureCode(e.getMessage(), rsp);
+            throw e;
+        } finally {
+
+        }
+
+        /***********************************************************************
+         * 서비스 성공시
+         * 
+         **********************************************************************/
+        putSuccessCode(" 수정되었습니다.", rsp);
+#휘리릭 수정끝
+
+#휘리릭 삭제
+
+        rsp.setMakeXML(true, "utf-8");
+        /***********************************************************************
+         * 0. 입력파라미터 => DataCollection : DataRequest 데이터를 DataCollection으로 변환
+         **********************************************************************/
+
+        DataCollection dcDelete = new DataCollection();
+        super.putDataRequestToDataCollection(req, dcDelete);
+        putSessionToDataCollection(dcDelete);
+        Connection con = null;
+        con = getConnection();
+
+        try {
+            /*******************************************************************
+             * 1. 비지니스 로직 호출 : 비지니스 클래스 호출시 Connection을 생성자로 넘겨준다
+             ******************************************************************/
+#휘리릭 삭제1 
+
+        } catch (Exception e) {
+            /*******************************************************************
+             * 서비스 실패 : 서비스 과정을 try 예외 처리를 해줘야 한다. : 로직 오류 결과 메시지를 DataResponse에
+             * 설정해준다.
+             ******************************************************************/
+            super.putFailureCode(e.getMessage(), rsp);
+            throw e;
+        } finally {
+
+        }
+
+        /***********************************************************************
+         * 서비스 성공시
+         * 
+         **********************************************************************/
+        putSuccessCode("삭제되었습니다.", rsp);
+#휘리릭 삭제끝
+
+#휘리릭 목록
+
+        rsp.setMakeXML(true, "utf-8");
+
+        DataCollection dcListView = new DataCollection();
+        super.putDataRequestToDataCollection(req, dcListView);
+
+        Connection con = null;
+        con = getConnection();
+
+        try {
+            
+             /*******************************************************************
+             * 1. 비지니스 로직 호출 : 비지니스 클래스 호출시 Connection을 생성자로 넘겨준다
+             ******************************************************************/
+#휘리릭 목록1
+            
+            /*******************************************************************
+             * 그룹 데이터 조회 : 그룹 데이터 결과는 DataSet을 DataRsponse에 그룹이름으로 저장한다.
+             ******************************************************************/
+            
+#휘리릭 목록2
+            super.putDataSetToDataResponse(dcListView.getDataSet("GridList"), rsp);
+            
+
+        } catch (Exception e) {
+            super.putFailureCode(e.getMessage(), rsp);
+            throw e;
+        } finally {
+        }
+
+        putSuccessCode("조회되었습니다.", rsp);
+#휘리릭 목록끝
+
+}
+#휘리릭 Biz첵
+#휘리릭 0
+#휘리릭 추가
+
+        /***********************************************************************
+         * 0. 프로그램에 사용될 변수 선언
+         **********************************************************************/
+        LoggableStatement ps_I = null;
+        Connection con = null;
+
+        try {
+            // 서비스 클래스에서 전달한 Connection
+            // 비지니스 클래스에서는 getBizConnection()으로 리턴
+            con = getBizConnection();
+            /*******************************************************************
+             * 1. INPUT DATA 추출
+             ******************************************************************/
+#휘리릭 추가1
+            /*******************************************************************
+             * 2. 중복체크
+             ******************************************************************/
+#휘리릭 추가2
+            if (list.size() > 0) {
+                throw new Exception("공통코드 등록 중복입니다.");
+            }
+            /*******************************************************************
+             * 3. 입력
+             ******************************************************************/
+#휘리릭 추가3
+        } catch (Exception e) {
+            throw e;
+        } finally {
+            /*
+             * 함수에서 사용한 PreparedStatement는 반드시 close()
+             */
+            if (ps_I != null) {
+                ps_I.close();
+            }
+        }
+#휘리릭 추가끝
+
+#휘리릭 수정
+        /***********************************************************************
+         * 0. 프로그램에 사용될 변수 선언
+         **********************************************************************/
+        LoggableStatement ps_U = null;
+        Connection con = null;
+
+        try {
+            // 서비스 클래스에서 전달한 Connection
+            // 비지니스 클래스에서는 getBizConnection()으로 리턴
+            con = getBizConnection();
+            /*******************************************************************
+             * 1. INPUT DATA 추출
+             ******************************************************************/
+#휘리릭 수정1
+            /*******************************************************************
+             * 2.PREPARED Statement
+             ******************************************************************/
+#휘리릭 수정2
+            /*******************************************************************
+             * 3. 입력
+             ******************************************************************/
+#휘리릭 수정3
+        } catch (Exception e) {
+            throw e;
+        } finally {
+            /*
+             * 함수에서 사용한 PreparedStatement는 반드시 close()
+             */
+            if (ps_U != null) {
+                ps_U.close();
+            }
+        }
+#휘리릭 수정끝
+
+
+#휘리릭 삭제
+        /***********************************************************************
+         * 0. 프로그램에 사용될 변수 선언
+         **********************************************************************/
+        LoggableStatement ps_D = null;
+        Connection con = null;
+
+        try {
+            // 서비스 클래스에서 전달한 Connection
+            // 비지니스 클래스에서는 getBizConnection()으로 리턴
+            con = getBizConnection();
+            /*******************************************************************
+             * 1. INPUT DATA 추출
+             ******************************************************************/
+#휘리릭 삭제1
+            /*******************************************************************
+             * 2.PREPARED Statement
+             ******************************************************************/
+#휘리릭 삭제2
+            /*******************************************************************
+             * 3. 입력
+             ******************************************************************/
+#휘리릭 삭제3
+        } catch (Exception e) {
+            throw e;
+        } finally {
+            /*
+             * 함수에서 사용한 PreparedStatement는 반드시 close()
+             */
+            if (ps_D != null) {
+                ps_D.close();
+            }
+        }
+#휘리릭 삭제끝
+
+#휘리릭 목록
+        /***********************************************************************
+         * 1.INPUT DATA 추출
+         **********************************************************************/
+#휘리릭 목록1
+        /***********************************************************************
+         * 2.목록조회
+         **********************************************************************/
+#휘리릭 목록2
+#휘리릭 목록끝
+}
+
+#휘리릭 Dao첵
+#휘리릭 0
+#휘리릭 목록
+        /***********************************************************************
+         * 0.프로그램사용 변수 선언
+         **********************************************************************/
+        Connection con = null;
+        LoggableStatement ps_S = null;
+
+        DataSet dsSelect = new DataSet();
+
+        try {
+            con = getConnection();
+
+            StringBuffer sbSql = new StringBuffer();
+            
+#휘리릭 쿼리
+
+            dsSelect.set(ps_S.executeQuery());
+        } catch (Exception ex) {
+            throw ex;
+        } finally {
+            if (ps_S != null) {
+                ps_S.close();
+            }
+        }
+
+#휘리릭 목록끝
+}
+
+#휘리릭 JAVA첵
+
+#휘리릭 화면초기
+
+#휘리릭 추가
+//등록
+function fnInsert(fnct_cd) {
+	// 서비스 CMD 설정
+	g_CmdValue = iconst.INSERT;
+
+	//현재 처리중이면 return;
+	if(ing.isIng())	{
+		return;
+	}
+
+	// 화면 입력 값 유효성 검사
+	if(!ievent.validate(frmDetail))	{
+		return;
+	}
+
+	// 등록 확인 메시지 창
+	if(!confirm(iconst.INSERT_QUESTION)) {
+		return;
+	}
+
+	if(ing.show()) {
+
+		iajax.openSync(gClassPath);
+
+#휘리릭 추가1
+
+		iajax.addParam(iconst.CMD    , g_CmdValue);
+		iajax.addParam(iconst.FNCT_CD, fnct_cd);
+
+		iajax.send();
+
+		var resultCode = iajax.getValue(iconst.RESULT_CODE);
+		var resultMsg  = iajax.getValue(iconst.RESULT_MSG);
+		// 거래 성공 여부
+
+		if ( resultCode == iconst.SUCCESS_CODE ) {
+			// 그리드를 다시 조회 해야 하는 경우 프로그래스 창 닫는다
+			ing.hide();
+			fnListView();
+		}
+		else {
+			ing.hide();
+			fnCheckAjaxResult(resultCode, resultMsg);
+		}
+	}
+}// END OF fnInsert()
+#휘리릭 추가끝
+
+#휘리릭 수정
+// 수정
+function fnUpdate(fnct_cd) {
+	// 서비스 CMD 설정
+	g_CmdValue = iconst.UPDATE;
+	if(ing.isIng())	{
+		return;
+	}
+
+	// 화면 입력 값 유효성 검사
+	if(!ievent.validate(frmDetail))	{
+		return;
+	}
+
+	// 수정 확인 메시지 창
+	if(!confirm(iconst.UPDATE_QUESTION )) {
+		return;
+	}
+	if(ing.show()) {
+
+		iajax.openSync(gClassPath);
+
+#휘리릭 수정1
+
+		iajax.addParam(iconst.CMD    , g_CmdValue);
+		iajax.addParam(iconst.FNCT_CD, fnct_cd);
+
+		iajax.send();
+
+		var resultCode = iajax.getValue(iconst.RESULT_CODE);
+		var resultMsg  = iajax.getValue(iconst.RESULT_MSG);
+
+		// 거래 성공 여부
+		if ( resultCode == iconst.SUCCESS_CODE ){
+			ing.hide();
+			// grid에서 PK값에 해당하는 컬럼명과 데이터를 저장
+			//fnSaveGridPk("grid", "SBCD", "POLC_CD", "POLC_CLSF_CD");
+			fnListView();
+			// grid에 PK값에 해당하는 row 선택 event 발생
+			//fnLoadGridPk("grid");
+		}
+		else {
+			ing.hide();
+			fnCheckAjaxResult(resultCode, resultMsg);
+		}
+	}
+
+}// END OF fnUpdate()
+#휘리릭 수정끝
+
+#휘리릭 삭제
+// 삭제
+function fnDelete(fnct_cd) {
+	// 서비스 CMD 설정
+	g_CmdValue = iconst.DELETE;
+	if(ing.isIng())	{
+		return;
+	}
+
+	// 화면 입력 값 유효성 검사
+	if(!ievent.validate(frmDetail))	{
+		return;
+	}
+	// 삭제 확인 메시지 창
+	if(!confirm(iconst.DELETE_QUESTION)) {
+		return;
+	}
+	if(ing.show()) {
+		iajax.openSync(gClassPath);
+
+#휘리릭 삭제1
+
+		iajax.addParam(iconst.CMD,  g_CmdValue);
+		iajax.addParam(iconst.FNCT_CD, fnct_cd);
+		iajax.send();
+
+		var resultCode = iajax.getValue(iconst.RESULT_CODE);
+		var resultMsg = iajax.getValue(iconst.RESULT_MSG);
+		// 거래 성공 여부
+		if ( resultCode == iconst.SUCCESS_CODE ){
+			// 그리드를 다시 조회 해야 하는 경우 프로그래스 창 닫는다
+			ing.hide();
+			fnListView();
+		}
+		else {
+			ing.hide();
+			fnCheckAjaxResult(resultCode, resultMsg);
+		}
+	}
+
+}// END OF fnDelete()
+#휘리릭 삭제끝
+
+#휘리릭 목록
+// 조회 (그리드)
+function fnListView() {
+	// 서비스 CMD 설정
+	g_CmdValue = iconst.LIST_VIEW;
+
+	if(ing.isIng())	{
+		return;
+	}
+
+	if(ing.show()) {
+
+		iajax.openSync(gClassPath);
+
+#휘리릭 목록1
+
+		iajax.addParam(iconst.CMD,  g_CmdValue);
+		iajax.send();
+
+		var resultCode = iajax.getValue(iconst.RESULT_CODE);
+		var resultMsg = iajax.getValue(iconst.RESULT_MSG);
+		// 거래 성공 여부
+		if ( resultCode == iconst.SUCCESS_CODE ) {
+			ing.hide();
+
+			// ajax로 부터의 결과 XML데이터를 그리드에 로드
+			frmDetail.grid.LoadXML("GridList", iajax.getText());
+
+
+		}
+		else {
+			ing.hide();
+			fnCheckAjaxResult(resultCode, resultMsg);
+		}
+	}
+}// END OF fnListView()
+#휘리릭 목록끝
+
+// 그리드 데이터 화면 객체 값 매핑
+function fnSetDataFromGrid(nRow, nCol) {
+#휘리릭 fnSetDataFromGrid
+	/*
+	frmDetailInit();
+	var grid = frmDetail.grid;
+	var SBCD = grid.GetCellDataByName(nRow,"SBCD");
+	frmDetail.txtSBCD.value = SBCD;
+	fnStyleChange(frmDetail.txtSBCD, "edt_ReadonlyLft", true);
+	*/
+#휘리릭 fnSetDataFromGrid끝
+}// END OF fnsetDataFromGrid()
+
+#휘리릭 Clear버튼없다
+//그리드 선택시 필수 항목 readonly로 세팅
+function fnStyleChange(obj, className , readOnly) {
+	if ( ! obj ) {
+		alert("OBJECT가 존재하지 않습니다.");
+		return;
+	}
+	var type = ( obj.length > 1 ) ?  obj[0].type : obj.type;
+	if ( type == "radio" || type == "combo") {
+		for ( var i=0 ; i<obj.length; i++ ){
+			obj[i].disabled = readOnly;
+		}
+	} else{
+		obj.readOnly  = ( readOnly ) ? true : false;
+		obj.className = className;
+	}
+
+}// END OF fnStyleChange();
+
+// 화면 입력 객체 값 초기화
+function fnClear(){
+	frmSearchInit();
+	frmDetailInit();
+	frmDetail.grid.InitGrid();
+	fnButtonEnable('Init');
+}// END OF fnClear()
+// 검색 FORM 기본값으로 세팅
+function frmSearchInit() {
+	iutil.reset(frmSearch);
+}// END OF frmSearchInit()
+// 세부 FORM 기본값으로 세팅
+function frmDetailInit() {
+	iutil.reset(frmDetail);
+}// END OF frmDetailInit()
+
+#휘리릭 버튼동적컨트롤
+
+#휘리릭 Clear버튼없다끝
+
+
+//엔터 키 입력시 이벤트 발생
+document.onkeydown=fnCheckEnter;
+function fnCheckEnter() {
+	if (event) {
+		if (event.keyCode) {
+			if ( event.keyCode == 13 && fnEnterZoneCheck(event.srcElement, frmSearch) ) {
+				fnListView();
+			}
+		}
+	}
+}// END OF fnCheckEnter()
+
+#휘리릭 프린트
+//프린트
+function fnPrint() {
+	frmDetail.grid.doPrint();
+}
+#휘리릭 프린트끝
+#휘리릭 엑셀
+//엑셀
+function fnExcel() {
+	frmDetail.grid.ExportXmlDataToExcel();
+}
+#휘리릭 엑셀끝
+
+#휘리릭 과목팝업
+function fnPopUp()
+{
+	var FNFU_SBCD = frmSearch.txtFNFU_SBCD.value;
+	var rtnValue = Js_SbcdPopUp(FNFU_SBCD);
+	
+	if( rtnValue != null ) {
+		frmSearch.txtFNFU_SBCD.value = rtnValue.FNFU_SBCD;
+		frmSearch.txtFNFU_SUBJ_NM.value = rtnValue.FNFU_SUBJ_NM;
+	}
+}
+#휘리릭 과목팝업끝
