@@ -1,2 +1,3 @@
-"# VisualBasicProjects" 
-"# VisualBasicProjects" 
+매우 과거에 만든 VisualBasic Project
+과거 사료정도로 가치가 낮기에 하나의 프로젝트로 엮어서 업로드함.
+각 폴더가 각 프로젝트 저장소임.
